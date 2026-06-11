@@ -1,0 +1,157 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Blurry"
+    },
+    {
+      "id": 1,
+      "name": "Consumed"
+    },
+    {
+      "id": 2,
+      "name": "Food rearranged significantly"
+    },
+    {
+      "id": 3,
+      "name": "Lighting inconsistency vs other images"
+    },
+    {
+      "id": 4,
+      "name": "No issues \u2014 image pair is clean"
+    },
+    {
+      "id": 5,
+      "name": "Non-edible residuals present (bones, core, crumbs only)"
+    },
+    {
+      "id": 6,
+      "name": "Not consumed"
+    },
+    {
+      "id": 7,
+      "name": "Obstacle obscuring food (cutlery, napkin, foil)"
+    },
+    {
+      "id": 8,
+      "name": "Odd tray angle"
+    },
+    {
+      "id": 9,
+      "name": "Shadow on tray"
+    },
+    {
+      "id": 10,
+      "name": "Tray partially out of frame"
+    },
+    {
+      "id": 11,
+      "name": "bread_roll"
+    },
+    {
+      "id": 12,
+      "name": "broccoli"
+    },
+    {
+      "id": 13,
+      "name": "brownie"
+    },
+    {
+      "id": 14,
+      "name": "butter"
+    },
+    {
+      "id": 15,
+      "name": "carrots"
+    },
+    {
+      "id": 16,
+      "name": "cherry_jam"
+    },
+    {
+      "id": 17,
+      "name": "chicken"
+    },
+    {
+      "id": 18,
+      "name": "chocolate_cake"
+    },
+    {
+      "id": 19,
+      "name": "coffee_cup"
+    },
+    {
+      "id": 20,
+      "name": "cola_can"
+    },
+    {
+      "id": 21,
+      "name": "cookie"
+    },
+    {
+      "id": 22,
+      "name": "fish_salmon"
+    },
+    {
+      "id": 23,
+      "name": "fruit_salad"
+    },
+    {
+      "id": 24,
+      "name": "honey"
+    },
+    {
+      "id": 25,
+      "name": "orange_juice_bottle"
+    },
+    {
+      "id": 26,
+      "name": "pasta_pesto"
+    },
+    {
+      "id": 27,
+      "name": "plum_jam"
+    },
+    {
+      "id": 28,
+      "name": "rice"
+    },
+    {
+      "id": 29,
+      "name": "salad_main"
+    },
+    {
+      "id": 30,
+      "name": "side_salad"
+    },
+    {
+      "id": 31,
+      "name": "tea_cup"
+    },
+    {
+      "id": 32,
+      "name": "vanilla_pudding_with_fruits"
+    },
+    {
+      "id": 33,
+      "name": "water_bottle"
+    },
+    {
+      "id": 34,
+      "name": "wrap_half_1"
+    },
+    {
+      "id": 35,
+      "name": "wrap_half_2"
+    },
+    {
+      "id": 36,
+      "name": "cola"
+    }
+  ],
+  "info": {
+    "year": 2026,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

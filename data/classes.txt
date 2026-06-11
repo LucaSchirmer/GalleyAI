@@ -1,0 +1,37 @@
+Blurry
+Consumed
+Food rearranged significantly
+Lighting inconsistency vs other images
+No issues — image pair is clean
+Non-edible residuals present (bones, core, crumbs only)
+Not consumed
+Obstacle obscuring food (cutlery, napkin, foil)
+Odd tray angle
+Shadow on tray
+Tray partially out of frame
+bread_roll
+broccoli
+brownie
+butter
+carrots
+cherry_jam
+chicken
+chocolate_cake
+coffee_cup
+cola_can
+cookie
+fish_salmon
+fruit_salad
+honey
+orange_juice_bottle
+pasta_pesto
+plum_jam
+rice
+salad_main
+side_salad
+tea_cup
+vanilla_pudding_with_fruits
+water_bottle
+wrap_half_1
+wrap_half_2
+cola

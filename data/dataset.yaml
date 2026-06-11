@@ -1,0 +1,12 @@
+# Use a relative path from where you will run your python script, 
+path: ./data 
+
+train: images # path to your training images folder
+val: images   # since you are testing on a small batch, we can point validation to the same folder for now
+
+# Open your classes.txt file to double-check the exact order of your labels
+names:
+  0: tray
+  1: main_dish
+  2: side_salad
+  3: dessert
