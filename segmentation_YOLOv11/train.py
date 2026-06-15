@@ -6,7 +6,7 @@ def main():
 
     # 2. Run a lightweight baseline training session
     results = model.train(
-        data="./data/dataset.yaml", # Path to the YAML file you just made
+        data="./data_with_splits/dataset.yaml", # Path to the YAML file you just made
         epochs=30,                  # Low epoch count just to verify the pipeline works
         imgsz=640,                  # Keeps VRAM usage low
         batch=8,                    # Small batch size to prevent memory crashes

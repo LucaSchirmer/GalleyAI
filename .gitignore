@@ -1,1 +1,5 @@
 /.venv
+yolo11m-seg.pt
+yolo26n.pt
+/runs
+CLAUDE.md
