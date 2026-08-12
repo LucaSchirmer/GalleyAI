@@ -8,9 +8,31 @@ from pathlib import Path
 # Edit these paths and settings to match your setup
 # ══════════════════════════════════════════════════════════════════════════════
 
-DATA_DIR   = Path("data/images")      # folder containing your images
-OUTPUT_DIR = Path("data_with_splits") # where the finished split will be written
-LABEL_DIR  = Path("data/labels")      # folder containing your .txt label files
+# Every source directory is treated as one combined pool of images before
+# splitting — i.e. train/val/test are drawn from ALL sources together, not
+# split independently per source.
+#
+# Each Label Studio project exports its OWN classes.txt, and the numeric
+# class index inside that project's YOLO .txt label files only makes sense
+# relative to ITS OWN classes.txt (line 0 = class 0, line 1 = class 1, ...).
+# Since different projects can (and do) list their classes in different
+# orders / with different names, we read each source's classes.txt
+# separately and remap by NAME (see NAME_TO_FINAL below) rather than by a
+# single hardcoded numeric table.
+DATA_SOURCES = [
+    {
+        "images": Path("data/images"),
+        "labels": Path("data/labels"),
+        "classes": Path("data/classes.txt"),
+    },
+    {
+        "images": Path("data_consumed/images"),
+        "labels": Path("data_consumed/labels"),
+        "classes": Path("data_consumed/classes.txt"),
+    },
+]
+
+OUTPUT_DIR = Path("data_with_splits")  # where the finished split will be written
 
 IMG_EXTS = {".jpg", ".jpeg", ".png", ".JPG", ".JPEG", ".PNG"}
 
@@ -20,83 +42,65 @@ VAL_RATIO   = 0.15
 # test ratio is whatever remains (0.15)
 
 # ══════════════════════════════════════════════════════════════════════════════
-# SECTION 2 — CLASS MAPPING
+# SECTION 2 — CLASS MAPPING (by name, not by raw index)
 #
-# Keys   = original class index as exported by Label Studio (0-based)
-# Values = new class index in your final dataset  (-1 = drop this class)
+# Keys   = class name exactly as it appears in EITHER source's classes.txt
+# Values = final class name to use in the merged dataset (must match an
+#          entry in CLASS_NAMES below), or None to drop that class entirely.
 #
-# HOW THE LABEL STUDIO INDICES WORK:
-#   The index order comes from the PolygonLabels definition in the
-#   Label Studio labeling interface (NOT from classes.txt, which was wrong).
-#   The order matches the keyboard shortcuts shown in the UI:
-#   rice=1, chicken=2, fish_salmon=3, ... cookie=y
-#   Counting from 0, that gives the mapping below.
-#
-# Original Label Studio PolygonLabels order (0-indexed):
-#  0  rice
-#  1  chicken
-#  2  fish_salmon
-#  3  broccoli
-#  4  carrots
-#  5  salad_main           → RENAME to main_salad
-#  6  wrap_half_1
-#  7  wrap_half_2
-#  8  pasta_pesto
-#  9  bread_roll
-#  10 side_salad
-#  11 brownie              → MERGE into chocolate_cake (new index 6)
-#  12 chocolate_cake
-#  13 vanilla_pudding_with_fruits
-#  14 fruit_salad
-#  15 water_bottle         → RENAME to water
-#  16 coffee_cup           → RENAME to coffee
-#  17 tea_cup              → RENAME to tea
-#  18 orange_juice_bottle  → RENAME to orange_juice
-#  19 cola_can             → RENAME to cola
-#  20 honey
-#  21 plum_jam             (appears on every bread_roll tray — expected)
-#  22 cherry_jam
-#  23 butter
-#  24 cookie               (appears on every tray)
+# Every name found across BOTH classes.txt files should appear here once.
+# Non-object entries (Blurry, Consumed, Not consumed, etc.) come from the
+# Choices fields used for the consumption annotations in the same Label
+# Studio project — they never have polygon geometry, so they map to None
+# and are silently dropped when remapping segmentation labels.
 # ══════════════════════════════════════════════════════════════════════════════
 
-# NOTE: pasta_pesto = 0 samples
+NAME_TO_FINAL = {
+    # --- non-object / choice classes: never appear as real polygon regions ---
+    "Blurry": None,
+    "Consumed": None,
+    "Food rearranged significantly": None,
+    "Lighting inconsistency vs other images": None,
+    "No issues — image pair is clean": None,
+    "Non-edible residuals present (bones, core, crumbs only)": None,
+    "Not consumed": None,
+    "Obstacle obscuring food (cutlery, napkin, foil)": None,
+    "Odd tray angle": None,
+    "Shadow on tray": None,
+    "Tray partially out of frame": None,
 
-
-OLD_TO_NEW = {
-    11: 0,   # bread_roll
-    12: 1,   # broccoli
-    13: 6,   # chocolate_cake
-    14: 2,   # butter
-    15: 3,   # carrots
-    16: 4,   # cherry_jam
-    17: 5,   # chicken
-
-    19: 7,   # coffee
-
-    21: 9,   # cookie
-    22: 10,  # fish_salmon
-    23: 11,  # fruit_salad
-    24: 12,  # honey
-    25: 13,  # orange_juice
-
-    27: 15,  # plum_jam
-    28: 16,  # rice
-    29: 17,  # main_salad
-    30: 18,  # side_salad
-    31: 19,  # tea
-    32: 20,  # vanilla_pudding_with_fruits
-    33: 21,  # water
-
-    34: 22,  # wrap_half_1
-    35: 23,  # wrap_half_2
-
-    36: 8,   # cola
+    # --- food / object classes ---
+    "bread_roll": "bread_roll",
+    "broccoli": "broccoli",
+    "brownie": "chocolate_cake",                 # MERGE into chocolate_cake
+    "butter": "butter",
+    "carrots": "carrots",
+    "cherry_jam": "cherry_jam",
+    "chicken": "chicken",
+    "chocolate_cake": "chocolate_cake",
+    "coffee_cup": "coffee",                      # RENAME
+    "cola": "cola",
+    "cola_can": "cola",                          # RENAME
+    "cookie": "cookie",
+    "fish_salmon": "fish_salmon",
+    "fruit_salad": "fruit_salad",
+    "honey": "honey",
+    "orange_juice_bottle": "orange_juice",        # RENAME
+    "pasta_pesto": "pasta_pesto",                 # NOTE: 0 samples so far
+    "plum_jam": "plum_jam",
+    "rice": "rice",
+    "salad_main": "main_salad",                   # RENAME
+    "side_salad": "side_salad",
+    "tea_cup": "tea",                             # RENAME
+    "vanilla_pudding_with_fruits": "vanilla_pudding_with_fruits",
+    "water_bottle": "water",                      # RENAME
+    "wrap_half_1": "wrap_half_1",
+    "wrap_half_2": "wrap_half_2",
 }
 
 # ══════════════════════════════════════════════════════════════════════════════
 # SECTION 3 — FINAL CLASS NAMES
-# Must be in new-index order (index 0 first, index 23 last)
+# Must be in new-index order (index 0 first, last index last)
 # Only edit these if you want to further rename something later
 # ══════════════════════════════════════════════════════════════════════════════
 
@@ -127,14 +131,31 @@ CLASS_NAMES = [
     "wrap_half_2",                  # 23
 ]
 
+FINAL_NAME_TO_INDEX = {name: i for i, name in enumerate(CLASS_NAMES)}
+
 # ══════════════════════════════════════════════════════════════════════════════
 # SECTION 4 — CORE LOGIC (you don't need to edit below this line)
 # ══════════════════════════════════════════════════════════════════════════════
 
-def remap_label_file(src: Path):
+def load_class_names(classes_path: Path):
     """
-    Reads one YOLO .txt label file and returns remapped lines.
-    - Lines with an index not in OLD_TO_NEW are dropped with a warning.
+    Reads a Label Studio classes.txt file. Line N (0-based) is the name
+    used for class index N in that project's exported YOLO .txt labels.
+    """
+    if not classes_path.exists():
+        raise FileNotFoundError(f"classes.txt not found: {classes_path.resolve()}")
+    lines = classes_path.read_text(encoding="utf-8").splitlines()
+    return [line.strip() for line in lines]
+
+
+def remap_label_file(src: Path, local_class_names):
+    """
+    Reads one YOLO .txt label file and returns remapped lines, translating
+    this project's local class index -> class name (via local_class_names)
+    -> final class name (via NAME_TO_FINAL) -> final class index.
+    - Lines whose local index has no known name, whose name has no entry
+      in NAME_TO_FINAL, or whose entry maps to None are dropped (with a
+      warning, except for the expected None/choice-class case).
     - Bounding box / polygon coordinates are kept exactly as-is;
       only the class index at position 0 changes.
     """
@@ -144,23 +165,84 @@ def remap_label_file(src: Path):
         if not line:
             continue
         parts = line.split()
-        old_cls = int(parts[0])
+        old_idx = int(parts[0])
 
-        if old_cls not in OLD_TO_NEW:
-            print(f"  ⚠ Unknown class index {old_cls} in {src.name} — skipping line")
+        if old_idx >= len(local_class_names):
+            print(f"  ⚠ Index {old_idx} in {src.name} has no matching line in "
+                  f"this source's classes.txt — skipping line")
             continue
 
-        new_cls = OLD_TO_NEW[old_cls]
+        name = local_class_names[old_idx]
+
+        if name not in NAME_TO_FINAL:
+            print(f"  ⚠ Unknown class name '{name}' (index {old_idx}) in {src.name} — "
+                  f"skipping line. Add it to NAME_TO_FINAL if this is expected.")
+            continue
+
+        final_name = NAME_TO_FINAL[name]
+        if final_name is None:
+            # Expected: a Choices-field class (e.g. "Consumed"), never a real region.
+            continue
+
+        if final_name not in FINAL_NAME_TO_INDEX:
+            print(f"  ⚠ '{name}' maps to final name '{final_name}', which is not in "
+                  f"CLASS_NAMES — skipping line")
+            continue
+
+        new_cls = FINAL_NAME_TO_INDEX[final_name]
         lines_out.append(f"{new_cls} {' '.join(parts[1:])}")
     return lines_out
 
 
-def copy_pair(img_path: Path, split: str):
+def collect_images():
+    """
+    Walks every entry in DATA_SOURCES, loads each source's own classes.txt,
+    and returns a combined list of (image_path, source) tuples — one per
+    image, remembering which source dict (images/labels/classes +
+    class_names) it belongs to. Raises if the same filename appears in more
+    than one source, since that would silently collide in the output split.
+    """
+    all_images = []
+    seen_in = {}  # filename -> images dir it was first seen in
+
+    for source in DATA_SOURCES:
+        images_dir = source["images"]
+        classes_path = source["classes"]
+
+        if not images_dir.exists():
+            raise FileNotFoundError(f"Images dir not found: {images_dir.resolve()}")
+
+        source["class_names"] = load_class_names(classes_path)
+        unknown = [n for n in source["class_names"] if n and n not in NAME_TO_FINAL]
+        if unknown:
+            print(f"  ⚠ {classes_path} has {len(unknown)} name(s) with no NAME_TO_FINAL "
+                  f"entry (lines using them will be skipped): {unknown}")
+
+        found_here = [p for p in images_dir.iterdir() if p.suffix in IMG_EXTS]
+        print(f"  found {len(found_here)} images in '{images_dir}' "
+              f"(classes.txt: {len(source['class_names'])} names)")
+
+        for p in found_here:
+            if p.name in seen_in:
+                raise ValueError(
+                    f"Duplicate filename '{p.name}' found in both "
+                    f"'{seen_in[p.name]}' and '{images_dir}'. "
+                    "Rename one of the files before running the split, "
+                    "otherwise one copy will silently overwrite the other."
+                )
+            seen_in[p.name] = images_dir
+            all_images.append((p, source))
+
+    return all_images
+
+
+def copy_pair(img_path: Path, source: dict, split: str):
     """
     Copies one image to data_with_splits/<split>/images/
     and writes its remapped label to data_with_splits/<split>/labels/
     """
-    label_path = LABEL_DIR / img_path.with_suffix(".txt").name
+    label_dir = source["labels"]
+    label_path = label_dir / img_path.with_suffix(".txt").name
 
     img_out = OUTPUT_DIR / split / "images" / img_path.name
     lbl_out = OUTPUT_DIR / split / "labels" / label_path.name
@@ -171,7 +253,7 @@ def copy_pair(img_path: Path, split: str):
     shutil.copy2(img_path, img_out)
 
     if label_path.exists():
-        remapped = remap_label_file(label_path)
+        remapped = remap_label_file(label_path, source["class_names"])
         lbl_out.write_text("\n".join(remapped), encoding="utf-8")
     else:
         print(f"  ⚠ No label file found for {img_path.name} — writing empty label")
@@ -179,27 +261,30 @@ def copy_pair(img_path: Path, split: str):
 
 
 def verify_mapping():
-    """Sanity check: make sure CLASS_NAMES covers all new indices."""
-    max_idx = max(v for v in OLD_TO_NEW.values())
-    if max_idx >= len(CLASS_NAMES):
+    """Sanity check: make sure every non-None NAME_TO_FINAL target exists in CLASS_NAMES."""
+    targets = {v for v in NAME_TO_FINAL.values() if v is not None}
+    missing = sorted(targets - set(CLASS_NAMES))
+    if missing:
         raise ValueError(
-            f"CLASS_NAMES has {len(CLASS_NAMES)} entries but mapping uses index {max_idx}. "
-            f"Add {max_idx - len(CLASS_NAMES) + 1} more name(s) to CLASS_NAMES."
+            f"NAME_TO_FINAL points to name(s) not present in CLASS_NAMES: {missing}. "
+            "Add them to CLASS_NAMES or fix the mapping."
         )
-    print(f"✓ Mapping verified — {len(CLASS_NAMES)} classes, max index {max_idx}")
+    print(f"✓ Mapping verified — {len(CLASS_NAMES)} final classes, "
+          f"{len(NAME_TO_FINAL)} known source names")
 
 
 def main():
     verify_mapping()
 
-    # Collect all images
-    images = [p for p in DATA_DIR.iterdir() if p.suffix in IMG_EXTS]
+    print(f"\nCollecting images from {len(DATA_SOURCES)} source dir(s)...")
+    images = collect_images()  # list of (img_path, source)
     if not images:
-        raise FileNotFoundError(f"No images found in {DATA_DIR.resolve()}")
+        raise FileNotFoundError("No images found across any of the DATA_SOURCES dirs.")
 
-    print(f"\nFound {len(images)} images in '{DATA_DIR}'")
+    print(f"\nFound {len(images)} images total across all sources")
 
-    # Shuffle deterministically
+    # Shuffle deterministically (combined pool, so train/val/test are drawn
+    # from both sources together rather than split independently per source)
     random.seed(SEED)
     random.shuffle(images)
 
@@ -221,8 +306,8 @@ def main():
 
     print(f"\nProcessing...")
     for split, imgs in splits.items():
-        for img in imgs:
-            copy_pair(img, split)
+        for img_path, source in imgs:
+            copy_pair(img_path, source, split)
         print(f"  ✓ {split} done")
 
     # Write dataset.yaml
@@ -246,8 +331,8 @@ names:
     # Print class distribution for train set
     print("\nClass distribution in train set:")
     counts = [0] * len(CLASS_NAMES)
-    for img in splits["train"]:
-        lbl = OUTPUT_DIR / "train" / "labels" / img.with_suffix(".txt").name
+    for img_path, _source in splits["train"]:
+        lbl = OUTPUT_DIR / "train" / "labels" / img_path.with_suffix(".txt").name
         if lbl.exists():
             for line in lbl.read_text().splitlines():
                 if line.strip():
