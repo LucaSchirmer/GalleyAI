@@ -3,3 +3,7 @@ yolo11m-seg.pt
 yolo26n.pt
 /runs
 CLAUDE.md
+*.cache
+__pycache__/
+**/__pycache__/
+*.pyc
