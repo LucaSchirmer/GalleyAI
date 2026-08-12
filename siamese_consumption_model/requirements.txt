@@ -1,0 +1,8 @@
+torch
+torchvision
+timm
+scikit-learn
+joblib
+mlflow
+Pillow
+numpy
