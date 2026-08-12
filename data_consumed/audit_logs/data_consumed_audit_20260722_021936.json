@@ -1,0 +1,2887 @@
+{
+  "generated_at": "2026-07-22T02:19:36",
+  "image_files_checked": 240,
+  "indexed_images_checked": 240,
+  "issues": [
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0046be21__all_markers_shot_20260528_145221.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "01fd2caf__all_markers_shot_20260519_165109.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0287feb9__all_markers_shot_20260519_143742.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "02b6ee53__all_markers_shot_20260528_140549.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0339f0de__all_markers_shot_20260519_160621.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "035e4713__all_markers_shot_20260528_140833.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "038be616__all_markers_shot_20260528_141313.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "03b90172__all_markers_shot_20260528_142837.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "03c3ea1c__all_markers_shot_20260519_144512.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0400c542__all_markers_shot_20260519_163940.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "04157e39__all_markers_shot_20260519_153221.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "05cac8a1__all_markers_shot_20260528_143735.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0a41f707__all_markers_shot_20260519_153526.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0a5e6c40__all_markers_shot_20260528_142155.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0a5ec2d2__all_markers_shot_20260528_141750.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0b92396b__all_markers_shot_20260519_164945.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0bbe7ab7__all_markers_shot_20260519_155956.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0ce9823c__all_markers_shot_20260528_144008.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0d81c96f__all_markers_shot_20260528_151224.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0efd5373__all_markers_shot_20260528_142800.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0f718331__all_markers_shot_20260519_145218.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "100436aa__all_markers_shot_20260519_155208.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "10860282__all_markers_shot_20260519_155046.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "10cb2adb__all_markers_shot_20260519_142948.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "1131806c__all_markers_shot_20260519_142452.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "12ada550__all_markers_shot_20260519_145921.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "13d3da77__all_markers_shot_20260519_144013.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "174d396a__all_markers_shot_20260519_153357.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "18e70c17__all_markers_shot_20260519_161134.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "191a77d7__all_markers_shot_20260519_161555.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "19c6f505__all_markers_shot_20260528_145103.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "1b529f5a__all_markers_shot_20260528_152335.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "1c8d935a__all_markers_shot_20260528_142624.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "1e39cc79__all_markers_shot_20260528_150844.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "204ddf34__all_markers_shot_20260519_163245.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "2281dc14__all_markers_shot_20260519_160745.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "23ab4170__all_markers_shot_20260528_153819.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "2413cfbb__all_markers_shot_20260528_143444.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "24943a73__all_markers_shot_20260519_163545.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "249aa039__all_markers_shot_20260528_151817.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "25756862__all_markers_shot_20260528_152505.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "26ce0986__all_markers_shot_20260528_154242.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "29843481__all_markers_shot_20260528_144318.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "2ad6b1d3__all_markers_shot_20260519_141613.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "2b064cae__all_markers_shot_20260519_160821.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "2c731317__all_markers_shot_20260519_143349.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "2dca8626__all_markers_shot_20260519_161730.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "2e7ca4a9__all_markers_shot_20260519_165159.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "2f5e3587__all_markers_shot_20260528_150411.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "3010b264__all_markers_shot_20260528_154945.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "30af4b0e__all_markers_shot_20260519_141508.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "30d8ba12__all_markers_shot_20260519_145855.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "3100ec85__all_markers_shot_20260519_160313.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "3296d971__all_markers_shot_20260528_151841.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "3327ac7a__all_markers_shot_20260519_161238.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "3339f834__all_markers_shot_20260528_150617.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "35503da5__all_markers_shot_20260528_153012.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "37bf9fb7__all_markers_shot_20260519_164242.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "38911a56__all_markers_shot_20260519_161440.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "391cf2f7__all_markers_shot_20260519_142744.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "3c61e448__all_markers_shot_20260519_164014.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "3d22a3f9__all_markers_shot_20260528_141835.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "3d81c928__all_markers_shot_20260519_161345.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "3de2632d__all_markers_shot_20260519_154149.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "3e0a870c__all_markers_shot_20260519_160531.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "3f829b7b__all_markers_shot_20260528_143542.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "3f8b9324__all_markers_shot_20260519_153554.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "421c13f9__all_markers_shot_20260528_145444.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "432f7abb__all_markers_shot_20260528_145755.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "44b4402a__all_markers_shot_20260519_141650.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "45760849__all_markers_shot_20260528_151643.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "4a8d485c__all_markers_shot_20260519_154227.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "4b1942e3__all_markers_shot_20260519_162238.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "4b7e1c26__all_markers_shot_20260528_154910.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "4ccd2489__all_markers_shot_20260519_142049.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "4cebfdc3__all_markers_shot_20260528_142307.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "4f98382e__all_markers_shot_20260528_154312.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "4fadaca0__all_markers_shot_20260528_151421.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "50903178__all_markers_shot_20260519_163352.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "50cf74fb__all_markers_shot_20260528_145749.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "515f5fd6__all_markers_shot_20260519_155714.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "516a0ea9__all_markers_shot_20260528_143923.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "51dee986__all_markers_shot_20260528_151329.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "530351b3__all_markers_shot_20260528_152218.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "53832e9f__all_markers_shot_20260528_153223.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "55a380e9__all_markers_shot_20260519_163607.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "5707c1a3__all_markers_shot_20260519_153953.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "57518301__all_markers_shot_20260528_143205.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "5a0ae358__all_markers_shot_20260528_155134.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "5a83db75__all_markers_shot_20260528_141142.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "5b2fdbf3__all_markers_shot_20260528_141439.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "5be4e9ea__all_markers_shot_20260519_163311.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "5be74aa1__all_markers_shot_20260519_164839.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "5ccf028f__all_markers_shot_20260519_145134.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "5f772a02__all_markers_shot_20260528_155020.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "5faa75a8__all_markers_shot_20260528_144249.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "60d91aeb__all_markers_shot_20260519_142638.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "6204b009__all_markers_shot_20260528_152429.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "625dd1b1__all_markers_shot_20260519_164201.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "637c6426__all_markers_shot_20260519_153338.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "638e7238__all_markers_shot_20260519_153706.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "63b929c1__all_markers_shot_20260519_154945.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "648ce97f__all_markers_shot_20260519_154013.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "6563bf96__all_markers_shot_20260528_143251.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "681a5ad5__all_markers_shot_20260519_165612.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "68c15968__all_markers_shot_20260519_143242.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "68ebe3f2__all_markers_shot_20260528_143834.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "68f766e3__all_markers_shot_20260519_150121.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "6b8fad50__all_markers_shot_20260528_151459.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "6cd731ac__all_markers_shot_20260519_164456.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "6e57d60e__all_markers_shot_20260519_155014.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "6fd2024e__all_markers_shot_20260519_141957.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "70b9f513__all_markers_shot_20260519_155914.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "72bce9e7__all_markers_shot_20260528_155209.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "771108a1__all_markers_shot_20260528_142411.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "781ed2ca__all_markers_shot_20260528_143349.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "787b2a58__all_markers_shot_20260528_154324.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "792638b8__all_markers_shot_20260519_144320.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "7b6757f4__all_markers_shot_20260519_164117.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "7cb41ed9__all_markers_shot_20260519_160931.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "7cb4749b__all_markers_shot_20260528_154034.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "7d071614__all_markers_shot_20260528_143013.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "7d87ae71__all_markers_shot_20260528_140442.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "7eafd829__all_markers_shot_20260519_143120.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "7f604e86__all_markers_shot_20260528_141245.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "7f836f60__all_markers_shot_20260528_153923.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "803ccc97__all_markers_shot_20260519_145557.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "80c7a0cf__all_markers_shot_20260519_150202.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "8182f028__all_markers_shot_20260528_142423.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "81eb4525__all_markers_shot_20260519_145328.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "84cc41fd__all_markers_shot_20260519_150223.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "87f3f88b__all_markers_shot_20260519_143020.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "886259b8__all_markers_shot_20260528_141804.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "890ec062__all_markers_shot_20260519_141858.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "89c2d4ea__all_markers_shot_20260528_145312.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "8a78e32b__all_markers_shot_20260519_165527.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "8ac9f92c__all_markers_shot_20260519_163155.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "8c135fc8__all_markers_shot_20260519_153825.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "8c6eb6b9__all_markers_shot_20260519_155340.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "8d774988__all_markers_shot_20260519_145832.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "8e88efdb__all_markers_shot_20260519_162258.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "8ecf688f__all_markers_shot_20260519_160655.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "8f348e7e__all_markers_shot_20260519_163827.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "8f3f934e__all_markers_shot_20260528_144209.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "90296dcd__all_markers_shot_20260519_163428.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "909b6862__all_markers_shot_20260519_155619.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "91809683__all_markers_shot_20260519_144438.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "919ba66d__all_markers_shot_20260519_150457.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "91c042f5__all_markers_shot_20260528_150931.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "9309cea8__all_markers_shot_20260519_155139.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "936e16af__all_markers_shot_20260519_145308.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "93e175f2__all_markers_shot_20260528_143813.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "94099e73__all_markers_shot_20260528_151042.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "941aa4ed__all_markers_shot_20260528_144649.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "94d8e5d4__all_markers_shot_20260519_154626.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "95f032a7__all_markers_shot_20260528_143045.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "97b9cea3__all_markers_shot_20260519_160232.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "97ecc04d__all_markers_shot_20260519_144922.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "98615d46__all_markers_shot_20260519_142311.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "99c9a6ce__all_markers_shot_20260528_142350.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "9a7df706__all_markers_shot_20260528_151610.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "9bc5a773__all_markers_shot_20260519_145025.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "9d8fd3ce__all_markers_shot_20260528_152030.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "9e4a27f5__all_markers_shot_20260528_153509.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "a06fa13d__all_markers_shot_20260528_144429.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "a3c752d5__all_markers_shot_20260528_141043.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "a6e3a794__all_markers_shot_20260519_144422.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "aa4c0fa6__all_markers_shot_20260528_151929.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "aa5ca5b3__all_markers_shot_20260519_163501.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "aa90cb9e__all_markers_shot_20260528_145144.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ab56087d__all_markers_shot_20260519_161830.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ad23884e__all_markers_shot_20260519_165726.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "aec1e588__all_markers_shot_20260528_144955.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "b3af0f97__all_markers_shot_20260528_151733.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "b4a0ded2__all_markers_shot_20260519_144128.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "b6798d6b__all_markers_shot_20260519_142554.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "b6e23722__all_markers_shot_20260519_145708.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "b709b993__all_markers_shot_20260528_140658.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "b842a783__all_markers_shot_20260519_143257.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "b8a1b9dc__all_markers_shot_20260528_144807.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "bd250bbf__all_markers_shot_20260519_164334.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "bf31245f__all_markers_shot_20260519_144603.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "bf617a9d__all_markers_shot_20260519_162017.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "c1ab7472__all_markers_shot_20260519_160502.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "c1b0feeb__all_markers_shot_20260519_155853.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "c1f8ed06__all_markers_shot_20260528_154156.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "c9c43f89__all_markers_shot_20260528_145645.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ca4cb9e7__all_markers_shot_20260519_163636.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "cbdad753__all_markers_shot_20260519_145414.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "cc189fc4__all_markers_shot_20260528_144718.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "cc507cb0__all_markers_shot_20260528_145423.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ccbfe447__all_markers_shot_20260519_141216.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "cd80986e__all_markers_shot_20260528_150227.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "cdc403e2__all_markers_shot_20260528_144129.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "cdcb9ea8__all_markers_shot_20260519_150314.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "cf7b727f__all_markers_shot_20260528_144622.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "cff0d837__all_markers_shot_20260528_140355.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "d03b41fd__all_markers_shot_20260519_162156.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "d074e027__all_markers_shot_20260519_154809.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "d4025fcc__all_markers_shot_20260528_145544.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "d5827353__all_markers_shot_20260519_161032.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "d65d84c6__all_markers_shot_20260528_150802.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "d8ff2d63__all_markers_shot_20260528_142925.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "d968dd48__all_markers_shot_20260519_154511.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "dd0365ec__all_markers_shot_20260528_150117.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ddd57a78__all_markers_shot_20260519_153321.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "df670573__all_markers_shot_20260528_150854.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "df78a1eb__all_markers_shot_20260519_142355.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "e2268910__all_markers_shot_20260519_165756.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "e26d1d5c__all_markers_shot_20260519_165026.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "e3b4969b__all_markers_shot_20260528_153130.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "e5400541__all_markers_shot_20260528_154215.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "e664b8c9__all_markers_shot_20260528_145950.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "e67d4982__all_markers_shot_20260528_141825.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "e84b1c82__all_markers_shot_20260528_150525.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "e89917a9__all_markers_shot_20260528_150159.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ea15c184__all_markers_shot_20260519_165315.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ea3cc86a__all_markers_shot_20260528_153206.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ea517679__all_markers_shot_20260528_153435.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "eae2ebda__all_markers_shot_20260528_150218.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ef1dd3ce__all_markers_shot_20260528_140805.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ef98c35b__all_markers_shot_20260519_143445.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f075e451__all_markers_shot_20260519_161323.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f172d676__all_markers_shot_20260519_155246.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f267323e__all_markers_shot_20260519_162111.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f2f2e075__all_markers_shot_20260528_143427.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f545b273__all_markers_shot_20260528_150102.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f5eacd7e__all_markers_shot_20260528_142654.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f5ead6da__all_markers_shot_20260528_144758.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f8eeb660__all_markers_shot_20260528_153155.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f9141b3c__all_markers_shot_20260528_141635.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f91f219a__all_markers_shot_20260519_145908.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f92fc32a__all_markers_shot_20260528_145831.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f937b220__all_markers_shot_20260528_143641.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "fb7a1024__all_markers_shot_20260528_150148.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "fbd646b4__all_markers_shot_20260519_142232.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "fdad2062__all_markers_shot_20260519_165423.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "fdf09e6c__all_markers_shot_20260519_163718.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "fee50051__all_markers_shot_20260519_153910.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ff0fc3f5__all_markers_shot_20260528_141336.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_150411",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_154910",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_154945",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_155020",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_155134",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_155209",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_145312",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_145444",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_145544",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_145645",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_145749",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_145755",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_145831",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_145950",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_150102",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_150117",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_150148",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_150159",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_150218",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_150227",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_143834",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_143923",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_144008",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_144129",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_144209",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_144249",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_144318",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_144429",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_144622",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_144649",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_144718",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_144758",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_144807",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_144955",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_145103",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_145144",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_145221",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_150525",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_150617",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_150802",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_150844",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_150854",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_150931",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_151042",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_151224",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_151329",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_142654",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_142800",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_142837",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_142925",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_143013",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_143045",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_143205",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_143251",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_143349",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_143427",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_143444",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_143542",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_143641",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_151421",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_151459",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_151610",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_151643",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_151733",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_151817",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_151841",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_151929",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_152030",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_152218",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_152335",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_152429",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_152505",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_143735",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_153012",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_153130",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_153155",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_153206",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_153223",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_153435",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_153509",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_142155",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_142307",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_142350",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_142411",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_142423",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_142624",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_154242",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_154312",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_154324",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_153819",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_153923",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_154034",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_154156",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_154215",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_141313",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_141336",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_141439",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_141635",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_141750",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_141804",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_141825",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_141835",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_141043",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_141142",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_141245",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_140355",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_140442",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_140549",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_140658",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_140805",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_140833",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_145708",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_145832",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_145855",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_145908",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_145921",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_150121",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_150202",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_150223",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_150314",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_150457",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_161555",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_161730",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_161830",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_162017",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_162111",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_162156",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_162238",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_162258",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_145557",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_160621",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_160655",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_160745",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_160821",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_161032",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_161134",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_161238",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_161323",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_161345",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_161440",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_165109",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_165159",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_165315",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_165423",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_164839",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_164945",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_165026",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_165527",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_165612",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_165726",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_165756",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_144512",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_144603",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_144922",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_145025",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_145134",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_145218",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_145308",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_145328",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_145414",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_160502",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_160531",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_160232",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_160313",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_143742",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_144013",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_144128",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_144320",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_144422",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_144438",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_164456",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_155714",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_155853",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_155914",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_155956",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_163155",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_163311",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_163352",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_163428",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_163501",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_163545",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_163607",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_163636",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_142948",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_143020",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_143120",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_143242",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_143257",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_143349",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_143445",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_163718",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_163827",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_163940",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_164014",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_164117",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_164201",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_164242",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_164334",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_153221",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_153321",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_153338",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_153357",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_153526",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_153554",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_153706",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_153825",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_153910",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_153953",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_154013",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_154149",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_154227",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_141957",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_142049",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_142232",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_142311",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_142355",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_142452",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_142554",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_142638",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_142744",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_155340",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_155619",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_155014",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_155046",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_155139",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_155208",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_155246",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_141216",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_141508",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_141613",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_141650",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_141858",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_145423",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_143813",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_160931",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_163245",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_154511",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_154626",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_154809",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260519_154945",
+      "message": "The index contains a record for an image that does not exist on disk."
+    }
+  ]
+}

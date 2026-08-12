@@ -1,0 +1,229 @@
+{
+  "generated_at": "2026-07-22T02:21:13",
+  "image_files_checked": 240,
+  "indexed_images_checked": 240,
+  "issues": [
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "68ebe3f2__all_markers_shot_20260528_143834.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "cdc403e2__all_markers_shot_20260528_144129.jpg",
+      "message": "pct_brownie is 0 but the polygon label 'brownie' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "8f3f934e__all_markers_shot_20260528_144209.jpg",
+      "message": "pct_salad_dish_main is 0 but the polygon label 'salad_dish_main' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "6563bf96__all_markers_shot_20260528_143251.jpg",
+      "message": "pct_salad_dish_main is 0 but the polygon label 'salad_dish_main' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "45760849__all_markers_shot_20260528_151643.jpg",
+      "message": "pct_brownie is 0 but the polygon label 'brownie' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "53832e9f__all_markers_shot_20260528_153223.jpg",
+      "message": "pct_brownie is 0 but the polygon label 'brownie' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "99c9a6ce__all_markers_shot_20260528_142350.jpg",
+      "message": "pct_fruit_salad is 0 but the polygon label 'fruit_salad' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "8182f028__all_markers_shot_20260528_142423.jpg",
+      "message": "pct_bread_roll is 0 but the polygon label 'bread_roll' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "038be616__all_markers_shot_20260528_141313.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "ff0fc3f5__all_markers_shot_20260528_141336.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "5b2fdbf3__all_markers_shot_20260528_141439.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "f9141b3c__all_markers_shot_20260528_141635.jpg",
+      "message": "pct_fruit_salad is 0 but the polygon label 'fruit_salad' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "f9141b3c__all_markers_shot_20260528_141635.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "0a5ec2d2__all_markers_shot_20260528_141750.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "886259b8__all_markers_shot_20260528_141804.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "e67d4982__all_markers_shot_20260528_141825.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "3d22a3f9__all_markers_shot_20260528_141835.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "2dca8626__all_markers_shot_20260519_161730.jpg",
+      "message": "pct_chicken_rice_veg is 0 but the polygon label 'chicken_rice_veg' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "0f718331__all_markers_shot_20260519_145218.jpg",
+      "message": "pct_fruit_salad is 0 but the polygon label 'fruit_salad' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "97b9cea3__all_markers_shot_20260519_160232.jpg",
+      "message": "pct_chicken_rice_veg is 0 but the polygon label 'chicken_rice_veg' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "0287feb9__all_markers_shot_20260519_143742.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "13d3da77__all_markers_shot_20260519_144013.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "a6e3a794__all_markers_shot_20260519_144422.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "6cd731ac__all_markers_shot_20260519_164456.jpg",
+      "message": "pct_side_salad is 0 but the polygon label 'side_salad' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "aa5ca5b3__all_markers_shot_20260519_163501.jpg",
+      "message": "pct_bread_roll is 0 but the polygon label 'bread_roll' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "10cb2adb__all_markers_shot_20260519_142948.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "87f3f88b__all_markers_shot_20260519_143020.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "7eafd829__all_markers_shot_20260519_143120.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "68c15968__all_markers_shot_20260519_143242.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "b842a783__all_markers_shot_20260519_143257.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "2c731317__all_markers_shot_20260519_143349.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "ef98c35b__all_markers_shot_20260519_143445.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "3c61e448__all_markers_shot_20260519_164014.jpg",
+      "message": "pct_chicken_rice_veg is 0 but the polygon label 'chicken_rice_veg' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "37bf9fb7__all_markers_shot_20260519_164242.jpg",
+      "message": "pct_side_salad is 0 but the polygon label 'side_salad' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "bd250bbf__all_markers_shot_20260519_164334.jpg",
+      "message": "pct_chicken_rice_veg is 0 but the polygon label 'chicken_rice_veg' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "ccbfe447__all_markers_shot_20260519_141216.jpg",
+      "message": "pct_bread_roll is 0 but the polygon label 'bread_roll' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "94d8e5d4__all_markers_shot_20260519_154626.jpg",
+      "message": "pct_chicken_rice_veg is 0 but the polygon label 'chicken_rice_veg' is missing from polygon_labels."
+    }
+  ]
+}

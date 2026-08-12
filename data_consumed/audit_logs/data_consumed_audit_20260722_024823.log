@@ -1,0 +1,80 @@
+DATA CONSUMED AUDIT REPORT
+Generated: 2026-07-22T02:48:23
+
+Image files checked: 240
+Indexed images checked: 240
+Issues found: 36
+
+Issues:
+1. [ERROR] zero_consumption_and_missing_mask | 68ebe3f2__all_markers_shot_20260528_143834.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+2. [ERROR] zero_consumption_and_missing_mask | cdc403e2__all_markers_shot_20260528_144129.jpg
+   pct_brownie is 0 but the polygon label 'brownie' is missing from polygon_labels.
+3. [ERROR] zero_consumption_and_missing_mask | 8f3f934e__all_markers_shot_20260528_144209.jpg
+   pct_salad_dish_main is 0 but the polygon label 'salad_dish_main' is missing from polygon_labels.
+4. [ERROR] zero_consumption_and_missing_mask | 6563bf96__all_markers_shot_20260528_143251.jpg
+   pct_salad_dish_main is 0 but the polygon label 'salad_dish_main' is missing from polygon_labels.
+5. [ERROR] zero_consumption_and_missing_mask | 45760849__all_markers_shot_20260528_151643.jpg
+   pct_brownie is 0 but the polygon label 'brownie' is missing from polygon_labels.
+6. [ERROR] zero_consumption_and_missing_mask | 53832e9f__all_markers_shot_20260528_153223.jpg
+   pct_brownie is 0 but the polygon label 'brownie' is missing from polygon_labels.
+7. [ERROR] zero_consumption_and_missing_mask | 99c9a6ce__all_markers_shot_20260528_142350.jpg
+   pct_fruit_salad is 0 but the polygon label 'fruit_salad' is missing from polygon_labels.
+8. [ERROR] zero_consumption_and_missing_mask | 8182f028__all_markers_shot_20260528_142423.jpg
+   pct_bread_roll is 0 but the polygon label 'bread_roll' is missing from polygon_labels.
+9. [ERROR] zero_consumption_and_missing_mask | 038be616__all_markers_shot_20260528_141313.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+10. [ERROR] zero_consumption_and_missing_mask | ff0fc3f5__all_markers_shot_20260528_141336.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+11. [ERROR] zero_consumption_and_missing_mask | 5b2fdbf3__all_markers_shot_20260528_141439.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+12. [ERROR] zero_consumption_and_missing_mask | f9141b3c__all_markers_shot_20260528_141635.jpg
+   pct_fruit_salad is 0 but the polygon label 'fruit_salad' is missing from polygon_labels.
+13. [ERROR] zero_consumption_and_missing_mask | f9141b3c__all_markers_shot_20260528_141635.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+14. [ERROR] zero_consumption_and_missing_mask | 0a5ec2d2__all_markers_shot_20260528_141750.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+15. [ERROR] zero_consumption_and_missing_mask | 886259b8__all_markers_shot_20260528_141804.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+16. [ERROR] zero_consumption_and_missing_mask | e67d4982__all_markers_shot_20260528_141825.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+17. [ERROR] zero_consumption_and_missing_mask | 3d22a3f9__all_markers_shot_20260528_141835.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+18. [ERROR] zero_consumption_and_missing_mask | 2dca8626__all_markers_shot_20260519_161730.jpg
+   pct_chicken_rice_veg is 0 but the polygon label 'chicken_rice_veg' is missing from polygon_labels.
+19. [ERROR] zero_consumption_and_missing_mask | 97b9cea3__all_markers_shot_20260519_160232.jpg
+   pct_chicken_rice_veg is 0 but the polygon label 'chicken_rice_veg' is missing from polygon_labels.
+20. [ERROR] zero_consumption_and_missing_mask | 0287feb9__all_markers_shot_20260519_143742.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+21. [ERROR] zero_consumption_and_missing_mask | 13d3da77__all_markers_shot_20260519_144013.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+22. [ERROR] zero_consumption_and_missing_mask | a6e3a794__all_markers_shot_20260519_144422.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+23. [ERROR] zero_consumption_and_missing_mask | 6cd731ac__all_markers_shot_20260519_164456.jpg
+   pct_side_salad is 0 but the polygon label 'side_salad' is missing from polygon_labels.
+24. [ERROR] zero_consumption_and_missing_mask | aa5ca5b3__all_markers_shot_20260519_163501.jpg
+   pct_bread_roll is 0 but the polygon label 'bread_roll' is missing from polygon_labels.
+25. [ERROR] zero_consumption_and_missing_mask | 10cb2adb__all_markers_shot_20260519_142948.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+26. [ERROR] zero_consumption_and_missing_mask | 87f3f88b__all_markers_shot_20260519_143020.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+27. [ERROR] zero_consumption_and_missing_mask | 7eafd829__all_markers_shot_20260519_143120.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+28. [ERROR] zero_consumption_and_missing_mask | 68c15968__all_markers_shot_20260519_143242.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+29. [ERROR] zero_consumption_and_missing_mask | b842a783__all_markers_shot_20260519_143257.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+30. [ERROR] zero_consumption_and_missing_mask | 2c731317__all_markers_shot_20260519_143349.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+31. [ERROR] zero_consumption_and_missing_mask | ef98c35b__all_markers_shot_20260519_143445.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+32. [ERROR] zero_consumption_and_missing_mask | 3c61e448__all_markers_shot_20260519_164014.jpg
+   pct_chicken_rice_veg is 0 but the polygon label 'chicken_rice_veg' is missing from polygon_labels.
+33. [ERROR] zero_consumption_and_missing_mask | 37bf9fb7__all_markers_shot_20260519_164242.jpg
+   pct_side_salad is 0 but the polygon label 'side_salad' is missing from polygon_labels.
+34. [ERROR] zero_consumption_and_missing_mask | bd250bbf__all_markers_shot_20260519_164334.jpg
+   pct_chicken_rice_veg is 0 but the polygon label 'chicken_rice_veg' is missing from polygon_labels.
+35. [ERROR] zero_consumption_and_missing_mask | ccbfe447__all_markers_shot_20260519_141216.jpg
+   pct_bread_roll is 0 but the polygon label 'bread_roll' is missing from polygon_labels.
+36. [ERROR] zero_consumption_and_missing_mask | 94d8e5d4__all_markers_shot_20260519_154626.jpg
+   pct_chicken_rice_veg is 0 but the polygon label 'chicken_rice_veg' is missing from polygon_labels.

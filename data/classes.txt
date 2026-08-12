@@ -27,7 +27,7 @@ orange_juice_bottle
 pasta_pesto
 plum_jam
 rice
-salad_main
+main_salad
 side_salad
 tea_cup
 vanilla_pudding_with_fruits

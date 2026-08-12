@@ -7,3 +7,5 @@ CLAUDE.md
 __pycache__/
 **/__pycache__/
 *.pyc
+mlruns
+/mask_cache

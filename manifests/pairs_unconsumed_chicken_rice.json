@@ -1,0 +1,215 @@
+[
+  {
+    "source_dir": "images/unconsumed/chicken_rice",
+    "unconsumed": "images/unconsumed/chicken_rice/all_markers_shot_20260528_133257.jpg",
+    "consumed": [
+      "images/consumed/chicken_rice/all_markers_shot_20260528_150411.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_154910.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_154945.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_155020.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_155134.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_155209.jpg"
+    ],
+    "possibleElements": ["Cola", "Chicken", "Rice", "Broccoli", "Carrots", "Bread roll", "Chocolate cake", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
+  },
+  {
+    "source_dir": "images/unconsumed/chicken_rice",
+    "unconsumed": "images/unconsumed/chicken_rice/all_markers_shot_20260528_133617.jpg",
+    "consumed": [
+      "images/consumed/chicken_rice/all_markers_shot_20260528_145312.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_145523.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_145444.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_145544.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_145645.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_145749.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_145755.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_145831.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_145950.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_150102.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_150117.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_150148.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_150159.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_150218.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_150227.jpg"
+    ],
+    "possibleElements": ["Tea", "Chicken", "Rice", "Broccoli", "Carrots", "Bread roll", "Chocolate cake", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
+  },
+  {
+    "source_dir": "images/unconsumed/chicken_rice",
+    "unconsumed": "images/unconsumed/chicken_rice/all_markers_shot_20260528_133849.jpg",
+    "consumed": [
+      "images/consumed/chicken_rice/all_markers_shot_20260528_143834.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_143923.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_144008.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_144129.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_144209.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_144249.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_144318.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_144429.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_144622.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_144649.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_144718.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_144758.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_144807.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_144807.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_144955.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_145103.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_145144.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_145221.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_145221.jpg"
+    ],
+    "possibleElements": ["Water", "Chicken", "Rice", "Broccoli", "Carrots", "Bread roll", "Vanilla pudding with fruits", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
+  },
+  {
+    "source_dir": "images/unconsumed/chicken_rice",
+    "unconsumed": "images/unconsumed/chicken_rice/all_markers_shot_20260528_134315.jpg",
+    "consumed": [
+      "images/consumed/chicken_rice/all_markers_shot_20260528_150525.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_150617.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_150802.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_150844.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_150854.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_150931.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_151042.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_151224.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_151329.jpg"
+    ],
+    "possibleElements": ["Cola", "Chicken", "Rice", "Broccoli", "Carrots", "Bread roll", "Fruit salad", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
+  },
+  {
+    "source_dir": "images/unconsumed/chicken_rice",
+    "unconsumed": "images/unconsumed/chicken_rice/all_markers_shot_20260528_134328.jpg",
+    "consumed": [
+      "images/consumed/chicken_rice/all_markers_shot_20260528_142800.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_142837.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_142925.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_143013.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_143045.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_143205.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_143251.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_143349.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_143427.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_143444.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_143542.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_143641.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_151421.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_151459.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_151610.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_151643.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_151733.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_151817.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_151841.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_151929.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_152030.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_152218.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_152335.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_152429.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_152505.jpg"
+    ],
+    "possibleElements": ["Orange juice", "Chicken", "Rice", "Broccoli", "Carrots", "Bread roll", "Fruit salad", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
+  },
+  {
+    "source_dir": "images/unconsumed/chicken_rice",
+    "unconsumed": "images/unconsumed/chicken_rice/all_markers_shot_20260528_134339.jpg",
+    "consumed": [
+      "images/consumed/chicken_rice/all_markers_shot_20260528_143735.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_143815.jpg"
+    ],
+    "possibleElements": ["Water", "Chicken", "Rice", "Broccoli", "Carrots", "Bread roll", "Fruit salad", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
+  },
+  {
+    "source_dir": "images/unconsumed/chicken_rice",
+    "unconsumed": "images/unconsumed/chicken_rice/all_markers_shot_20260528_134422.jpg",
+    "consumed": [
+      "images/consumed/chicken_rice/all_markers_shot_20260528_153012.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_153130.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_153155.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_153206.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_153223.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_153435.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_153509.jpg"
+    ],
+    "possibleElements": ["Coffee", "Chicken", "Rice", "Broccoli", "Carrots", "Bread roll", "Fruit salad", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
+  },
+  {
+    "source_dir": "images/unconsumed/chicken_rice",
+    "unconsumed": "images/unconsumed/chicken_rice/all_markers_shot_20260528_135414.jpg",
+    "consumed": [
+      "images/consumed/chicken_rice/all_markers_shot_20260528_142155.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_142307.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_142350.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_142411.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_142423.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_142624.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_154242.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_154312.jpg"
+
+    ],
+    "possibleElements": ["Orange juice", "Chicken", "Rice", "Broccoli", "Carrots", "Side salad", "Chocolate cake", "Cookie"]
+  },
+  {
+    "source_dir": "images/unconsumed/chicken_rice",
+    "unconsumed": "images/unconsumed/chicken_rice/all_markers_shot_20260528_135428.jpg",
+    "consumed": [
+      "images/consumed/chicken_rice/all_markers_shot_20260528_154324.jpg"
+    ],
+    "possibleElements": ["Water", "Chicken", "Rice", "Broccoli", "Carrots", "Side salad", "Chocolate cake", "Cookie"]
+  },
+  {
+    "source_dir": "images/unconsumed/chicken_rice",
+    "unconsumed": "images/unconsumed/chicken_rice/all_markers_shot_20260528_135438.jpg",
+    "consumed": [
+      "images/consumed/chicken_rice/all_markers_shot_20260528_153819.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_153923.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_154034.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_154156.jpg"
+    ],
+    "possibleElements": ["Tea", "Chicken", "Rice", "Broccoli", "Carrots", "Side salad", "Chocolate cake", "Cookie"]
+  },
+  {
+    "source_dir": "images/unconsumed/chicken_rice",
+    "unconsumed": "images/unconsumed/chicken_rice/all_markers_shot_20260528_135508.jpg",
+    "consumed": [
+      "images/consumed/chicken_rice/all_markers_shot_20260528_154215.jpg"
+    ],
+    "possibleElements": ["Coffee", "Chicken", "Rice", "Broccoli", "Carrots", "Side salad", "Chocolate cake", "Cookie"]
+  },
+  {
+    "source_dir": "images/unconsumed/chicken_rice",
+    "unconsumed": "images/unconsumed/chicken_rice/all_markers_shot_20260528_135543.jpg",
+    "consumed": [
+      "images/consumed/chicken_rice/all_markers_shot_20260528_141313.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_141336.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_141439.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_141635.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_141750.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_141804.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_141825.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_141835.jpg"
+    ],
+    "possibleElements": ["Cola", "Chicken", "Rice", "Broccoli", "Carrots", "Side salad", "Vanilla pudding with fruits", "Cookie"]
+  },
+  {
+    "source_dir": "images/unconsumed/chicken_rice",
+    "unconsumed": "images/unconsumed/chicken_rice/all_markers_shot_20260528_135556.jpg",
+    "consumed": [
+      "images/consumed/chicken_rice/all_markers_shot_20260528_141043.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_141142.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_141245.jpg"
+    ],
+    "possibleElements": ["Cola", "Chicken", "Rice", "Broccoli", "Carrots", "Side salad", "Fruit salad", "Cookie"]
+  },
+  {
+    "source_dir": "images/unconsumed/chicken_rice",
+    "unconsumed": "images/unconsumed/chicken_rice/all_markers_shot_20260528_135607.jpg",
+    "consumed": [
+      "images/consumed/chicken_rice/all_markers_shot_20260528_140355.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_140442.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_140549.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_140658.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_140805.jpg",
+      "images/consumed/chicken_rice/all_markers_shot_20260528_140833.jpg"
+    ],
+    "possibleElements": ["Coffee", "Chicken", "Rice", "Broccoli", "Carrots", "Side salad", "Fruit salad", "Cookie"]
+  }
+]
