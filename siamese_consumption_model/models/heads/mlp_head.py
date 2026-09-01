@@ -18,9 +18,9 @@ import torch.nn as nn
 
 
 class ConcatMLPRegressionHead(nn.Module):
-    def __init__(self, feature_dim: int, trunk_hidden=(256, 64), dropout: float = 0.3):
+    def __init__(self, feature_dim: int, context_dim: int = 0, trunk_hidden=(256, 64), dropout: float = 0.3):
         super().__init__()
-        combined_dim = feature_dim * 4
+        combined_dim = feature_dim * 4 + context_dim
         h1, h2 = trunk_hidden
         self.trunk = nn.Sequential(
             nn.Linear(combined_dim, h1),
@@ -31,10 +31,17 @@ class ConcatMLPRegressionHead(nn.Module):
         )
         self.out = nn.Linear(h2, 1)  # raw linear output, no activation
 
-    def forward(self, feat_before: torch.Tensor, feat_after: torch.Tensor) -> torch.Tensor:
+    def forward(
+        self,
+        feat_before: torch.Tensor,
+        feat_after: torch.Tensor,
+        context: torch.Tensor | None = None,
+    ) -> torch.Tensor:
         combined = torch.cat(
             [feat_before, feat_after, torch.abs(feat_before - feat_after), feat_before * feat_after],
             dim=1,
         )
+        if context is not None:
+            combined = torch.cat([combined, context], dim=1)
         trunk_out = self.trunk(combined)
         return self.out(trunk_out).squeeze(1)

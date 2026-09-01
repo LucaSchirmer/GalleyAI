@@ -42,6 +42,11 @@ class DistanceRegressionHead(nn.Module):
         dist = torch.norm(a - b, dim=1)  # in [0, 2]
         return 1.0 - dist  # similarity-like: higher = more similar
 
-    def forward(self, feat_before: torch.Tensor, feat_after: torch.Tensor) -> torch.Tensor:
+    def forward(
+        self,
+        feat_before: torch.Tensor,
+        feat_after: torch.Tensor,
+        context: torch.Tensor | None = None,
+    ) -> torch.Tensor:
         sim = self.raw_similarity(feat_before, feat_after)
         return self.scale * sim + self.bias  # raw regression output

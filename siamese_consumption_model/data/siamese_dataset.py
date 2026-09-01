@@ -24,6 +24,7 @@ still roughly where it was.
 from __future__ import annotations
 
 import json
+from collections import Counter
 from pathlib import Path
 from typing import Any, Dict, List, Sequence
 
@@ -32,6 +33,8 @@ import torch
 from PIL import Image, ImageDraw
 from torch.utils.data import Dataset
 from torchvision import transforms
+
+from data.metric_vocabulary import metric_index
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -50,6 +53,8 @@ METRIC_LABEL_ALIASES: Dict[str, List[str]] = {
     "pct_salad_dish_main": ["main_salad"],
     "pct_chicken_rice_veg": ["chicken", "rice", "carrots", "broccoli"],
     "pct_brownie": ["chocolate_cake"],
+    "pct_wrap_merged": ["wrap_half_1", "wrap_half_2"],
+    "pct_fish_rice_veg": ["fish_salmon", "rice", "carrots", "broccoli"],
 }
 
 QUALITY_FLAG_EXCLUDES = {"Food rearranged significantly"}
@@ -74,6 +79,7 @@ CHOICE_VALUE_TO_TARGET: Dict[str, float] = {"Consumed": 100.0, "Not consumed": 0
 
 IMAGENET_MEAN = [0.485, 0.456, 0.406]
 IMAGENET_STD = [0.229, 0.224, 0.225]
+AUX_FEATURE_DIM = 5
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -140,6 +146,21 @@ def build_mask_array(detections: List[Dict[str, Any]], classes: Sequence[str], i
     return np.array(mask_img, dtype=np.float32)
 
 
+def mask_statistics(before_mask: torch.Tensor, after_mask: torch.Tensor) -> torch.Tensor:
+    """Return compact, scale-stable geometry features for a mask pair.
+
+    Features are before area, after area, remaining-area ratio, signed area
+    reduction, and an explicit missing-after indicator. The ratio is clipped
+    at 2 so occasional segmentation growth cannot dominate the learned heads.
+    """
+    before_area = before_mask.float().mean()
+    after_area = after_mask.float().mean()
+    ratio = torch.clamp(after_area / torch.clamp(before_area, min=1e-8), 0.0, 2.0)
+    reduction = torch.clamp((before_area - after_area) / torch.clamp(before_area, min=1e-8), -1.0, 1.0)
+    after_missing = (after_area == 0).to(dtype=torch.float32)
+    return torch.stack([before_area, after_area, ratio, reduction, after_missing])
+
+
 # ══════════════════════════════════════════════════════════════════════════════
 # DATASET
 # ══════════════════════════════════════════════════════════════════════════════
@@ -151,6 +172,7 @@ class ConsumptionPairDataset(Dataset):
         mask_cache_dir: Path = MASK_CACHE_DIR,
         img_size: int = IMG_SIZE,
         train_mode: bool = False,
+        excluded_metric_names: Sequence[str] = (),
     ):
         self.img_size = img_size
         self.train_mode = train_mode
@@ -163,6 +185,8 @@ class ConsumptionPairDataset(Dataset):
         self.samples: List[Dict[str, Any]] = []
         dropped_quality = 0
         dropped_no_before_mask = 0
+        dropped_excluded_metric = 0
+        excluded_metric_names = set(excluded_metric_names)
 
         for pair in pairs:
             flags = _first_choice_list(pair.get("choices", {}), "quality_flags")
@@ -172,6 +196,9 @@ class ConsumptionPairDataset(Dataset):
 
             for metric_name, values in pair.get("numbers", {}).items():
                 if not values:
+                    continue
+                if metric_name in excluded_metric_names:
+                    dropped_excluded_metric += 1
                     continue
                 target_pct = values[0]
                 classes = expected_polygon_labels(metric_name)
@@ -224,10 +251,25 @@ class ConsumptionPairDataset(Dataset):
 
         print(f"ConsumptionPairDataset({manifest_path}): {len(self.samples)} samples "
               f"(dropped {dropped_quality} quality-flagged pairs, "
-              f"{dropped_no_before_mask} samples with no 'before' mask)")
+              f"{dropped_no_before_mask} samples with no 'before' mask, "
+              f"{dropped_excluded_metric} excluded metric samples)")
 
     def __len__(self) -> int:
         return len(self.samples)
+
+    @staticmethod
+    def _sampling_stratum(sample: Dict[str, Any]) -> tuple:
+        if sample["task"] == "classification":
+            return sample["task"], sample["metric_name"], int(sample["target_pct"] >= 50)
+        target = float(sample["target_pct"])
+        target_bin = next(index for index, upper in enumerate((20, 40, 60, 80, 100)) if target <= upper)
+        return sample["task"], sample["metric_name"], target_bin
+
+    def balanced_sample_weights(self) -> torch.Tensor:
+        """Inverse-frequency weights over task, metric, and target bin."""
+        strata = [self._sampling_stratum(sample) for sample in self.samples]
+        counts = Counter(strata)
+        return torch.tensor([1.0 / counts[stratum] for stratum in strata], dtype=torch.double)
 
     def _load_tensor(self, image_path: str, classes: Sequence[str], flip_horizontal: bool = False) -> torch.Tensor:
         img = Image.open(image_path).convert("RGB").resize((self.img_size, self.img_size))
@@ -253,4 +295,6 @@ class ConsumptionPairDataset(Dataset):
         before_tensor = self._load_tensor(sample["before"], sample["classes"], flip_horizontal)
         after_tensor = self._load_tensor(sample["after"], sample["classes"], flip_horizontal)
         target = torch.tensor(sample["target_pct"] / 100.0, dtype=torch.float32)
-        return before_tensor, after_tensor, target, sample["task"]
+        metric_id = torch.tensor(metric_index(sample["metric_name"]), dtype=torch.long)
+        aux_features = mask_statistics(before_tensor[3], after_tensor[3])
+        return before_tensor, after_tensor, target, sample["task"], metric_id, aux_features

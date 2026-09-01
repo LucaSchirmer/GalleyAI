@@ -48,6 +48,8 @@ METRIC_ANNOTATION_LABELS: Dict[str, List[str]] = {
     "pct_salad_dish_main": ["salad_main"],
     # Composite dish metric: any component mask is acceptable.
     "pct_chicken_rice_veg": ["chicken", "rice", "carrots", "broccoli"],
+    "pct_fish_rice_veg": ["fish_salmon", "rice", "carrots", "broccoli"],
+    "pct_wrap_merged": ["wrap_half_1", "wrap_half_2"],
     "pct_brownie": ["brownie"],
 }
 
@@ -55,6 +57,8 @@ METRIC_MODEL_CLASSES: Dict[str, List[str]] = {
     "pct_vanilla_pudding": ["vanilla_pudding_with_fruits"],
     "pct_salad_dish_main": ["main_salad"],
     "pct_chicken_rice_veg": ["chicken", "rice", "carrots", "broccoli"],
+    "pct_fish_rice_veg": ["fish_salmon", "rice", "carrots", "broccoli"],
+    "pct_wrap_merged": ["wrap_half_1", "wrap_half_2"],
     "pct_brownie": ["chocolate_cake"],
 }
 
@@ -129,14 +133,21 @@ POSSIBLE_ELEMENT_CLASSES: Dict[str, str] = {
     "Plum jam": "plum_jam",
     "Cherry jam": "cherry_jam",
     "Chicken": "chicken",
+    "Salmon": "fish_salmon",
     "Rice": "rice",
     "Broccoli": "broccoli",
     "Carrots": "carrots",
+    "Wrap1": "wrap_half_1",
+    "Wrap2": "wrap_half_2",
 }
 
-MAIN_DISH_ELEMENTS = {"Chicken", "Rice", "Broccoli", "Carrots"}
+COMPOSITE_METRIC_ELEMENTS: Dict[str, Set[str]] = {
+    "pct_chicken_rice_veg": {"Chicken"},
+    "pct_fish_rice_veg": {"Salmon"},
+    "pct_wrap_merged": {"Wrap1", "Wrap2"},
+}
 KNOWN_CONSUMPTION_FIELDS = set(POSSIBLE_ELEMENT_FIELDS.values()) | {
-    "pct_chicken_rice_veg"
+    *COMPOSITE_METRIC_ELEMENTS,
 }
 
 
@@ -499,8 +510,9 @@ class ReviewSession:
                 for element in possible_elements
                 if element in POSSIBLE_ELEMENT_FIELDS
             }
-            if possible_elements.intersection(MAIN_DISH_ELEMENTS):
-                expected_fields.add("pct_chicken_rice_veg")
+            for metric_name, identifying_elements in COMPOSITE_METRIC_ELEMENTS.items():
+                if possible_elements.intersection(identifying_elements):
+                    expected_fields.add(metric_name)
             present_fields = set(numbers) | set(choices)
             missing_fields = sorted(expected_fields - present_fields)
             unexpected_fields = sorted(

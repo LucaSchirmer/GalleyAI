@@ -1,0 +1,5 @@
+{
+  "run_name": "final_sweep_convnext_tiny_euclidean_seed42",
+  "artifact": "/mnt/c/Users/LucaS/Desktop/programmieren_code/ba_thesis/GalleyAI/siamese_consumption_model/runs/siamese/final_sweep_convnext_tiny_euclidean_seed42/best.pt",
+  "finished_utc": "2026-08-30T00:04:44.775054+00:00"
+}

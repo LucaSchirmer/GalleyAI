@@ -1,0 +1,5 @@
+{
+  "run_name": "final_sweep_mobilenetv3_large_cosine_seed42",
+  "artifact": "/mnt/c/Users/LucaS/Desktop/programmieren_code/ba_thesis/GalleyAI/siamese_consumption_model/runs/siamese/final_sweep_mobilenetv3_large_cosine_seed42/best.pt",
+  "finished_utc": "2026-08-30T04:13:31.708841+00:00"
+}

@@ -20,7 +20,7 @@ from urllib.parse import unquote, urlparse
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-DEFAULT_EXPORT_PATH = SCRIPT_DIR.parent / "project-1-at-2026-07-21-18-54-66a41baf.json"
+DEFAULT_EXPORT_PATH = SCRIPT_DIR.parent / "project-1-at-2026-08-28-10-35-6a60389c.json"
 DEFAULT_OUTPUT_PATH = SCRIPT_DIR.parent / "data_consumed" / "consumption_index.json"
 
 

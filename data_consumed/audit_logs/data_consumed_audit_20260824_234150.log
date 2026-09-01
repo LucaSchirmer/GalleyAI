@@ -1,0 +1,302 @@
+DATA CONSUMED AUDIT REPORT
+Generated: 2026-08-24T23:41:50
+
+Image files checked: 365
+Indexed images checked: 239
+Issues found: 147
+
+Issues:
+1. [ERROR] image_to_index_mapping | 02b577d2__all_markers_shot_20260520_180501.jpg
+   No consumption record was found for this image stem.
+2. [ERROR] image_to_index_mapping | 09ac004a__all_markers_shot_20260520_181615.jpg
+   No consumption record was found for this image stem.
+3. [ERROR] image_to_index_mapping | 0c5b92c8__all_markers_shot_20260520_190359.jpg
+   No consumption record was found for this image stem.
+4. [ERROR] image_to_index_mapping | 0cc154b8__all_markers_shot_20260520_193306.jpg
+   No consumption record was found for this image stem.
+5. [ERROR] image_to_index_mapping | 0df5f347__all_markers_shot_20260529_162204.jpg
+   No consumption record was found for this image stem.
+6. [ERROR] image_to_index_mapping | 0e84c30a__all_markers_shot_20260520_191635.jpg
+   No consumption record was found for this image stem.
+7. [ERROR] image_to_index_mapping | 0e9f6dce__all_markers_shot_20260520_172237.jpg
+   No consumption record was found for this image stem.
+8. [ERROR] image_to_index_mapping | 0ff11a34__all_markers_shot_20260520_180433.jpg
+   No consumption record was found for this image stem.
+9. [ERROR] image_to_index_mapping | 11e93d76__all_markers_shot_20260520_173730.jpg
+   No consumption record was found for this image stem.
+10. [ERROR] image_to_index_mapping | 13f4aa23__all_markers_shot_20260529_172108.jpg
+   No consumption record was found for this image stem.
+11. [ERROR] image_to_index_mapping | 152c74b9__all_markers_shot_20260520_190138.jpg
+   No consumption record was found for this image stem.
+12. [ERROR] image_to_index_mapping | 187757c1__all_markers_shot_20260529_154513.jpg
+   No consumption record was found for this image stem.
+13. [ERROR] image_to_index_mapping | 1b8c4f93__all_markers_shot_20260520_171125.jpg
+   No consumption record was found for this image stem.
+14. [ERROR] image_to_index_mapping | 1e6dc67f__all_markers_shot_20260520_175247.jpg
+   No consumption record was found for this image stem.
+15. [ERROR] image_to_index_mapping | 1eb6c2c7__all_markers_shot_20260520_174121.jpg
+   No consumption record was found for this image stem.
+16. [ERROR] image_to_index_mapping | 1eec7ddb__all_markers_shot_20260520_191226.jpg
+   No consumption record was found for this image stem.
+17. [ERROR] image_to_index_mapping | 1f025382__all_markers_shot_20260520_171821.jpg
+   No consumption record was found for this image stem.
+18. [ERROR] image_to_index_mapping | 223fc016__all_markers_shot_20260520_173116.jpg
+   No consumption record was found for this image stem.
+19. [ERROR] image_to_index_mapping | 225b490b__all_markers_shot_20260520_190727.jpg
+   No consumption record was found for this image stem.
+20. [ERROR] image_to_index_mapping | 2394b8f5__all_markers_shot_20260520_180147.jpg
+   No consumption record was found for this image stem.
+21. [ERROR] image_to_index_mapping | 24829284__all_markers_shot_20260520_192704.jpg
+   No consumption record was found for this image stem.
+22. [ERROR] image_to_index_mapping | 248c9961__all_markers_shot_20260520_175448.jpg
+   No consumption record was found for this image stem.
+23. [ERROR] image_to_index_mapping | 2bca0ab5__all_markers_shot_20260520_183212.jpg
+   No consumption record was found for this image stem.
+24. [ERROR] image_to_index_mapping | 2bd43a3a__all_markers_shot_20260529_164904.jpg
+   No consumption record was found for this image stem.
+25. [ERROR] image_to_index_mapping | 2d1c6ec9__all_markers_shot_20260520_185846.jpg
+   No consumption record was found for this image stem.
+26. [ERROR] image_to_index_mapping | 3106fe10__all_markers_shot_20260520_180831.jpg
+   No consumption record was found for this image stem.
+27. [ERROR] image_to_index_mapping | 328476cc__all_markers_shot_20260520_191053.jpg
+   No consumption record was found for this image stem.
+28. [ERROR] image_to_index_mapping | 33a96b61__all_markers_shot_20260529_174637.jpg
+   No consumption record was found for this image stem.
+29. [ERROR] image_to_index_mapping | 36e455b0__all_markers_shot_20260520_165656.jpg
+   No consumption record was found for this image stem.
+30. [ERROR] image_to_index_mapping | 3780ca2c__all_markers_shot_20260529_172542.jpg
+   No consumption record was found for this image stem.
+31. [ERROR] image_to_index_mapping | 37eaaa4e__all_markers_shot_20260520_182304.jpg
+   No consumption record was found for this image stem.
+32. [ERROR] image_to_index_mapping | 3ceb846e__all_markers_shot_20260520_175425.jpg
+   No consumption record was found for this image stem.
+33. [ERROR] image_to_index_mapping | 3db414a9__all_markers_shot_20260520_170623.jpg
+   No consumption record was found for this image stem.
+34. [ERROR] image_to_index_mapping | 3ff23926__all_markers_shot_20260520_191411.jpg
+   No consumption record was found for this image stem.
+35. [ERROR] image_to_index_mapping | 41f2b1c2__all_markers_shot_20260520_193521.jpg
+   No consumption record was found for this image stem.
+36. [ERROR] image_to_index_mapping | 42a4746e__all_markers_shot_20260520_190850.jpg
+   No consumption record was found for this image stem.
+37. [ERROR] image_to_index_mapping | 42fa5a82__all_markers_shot_20260520_181537.jpg
+   No consumption record was found for this image stem.
+38. [ERROR] image_to_index_mapping | 45b6e2d0__all_markers_shot_20260520_174150.jpg
+   No consumption record was found for this image stem.
+39. [ERROR] image_to_index_mapping | 49d95108__all_markers_shot_20260520_182907.jpg
+   No consumption record was found for this image stem.
+40. [ERROR] image_to_index_mapping | 4a238001__all_markers_shot_20260520_170029.jpg
+   No consumption record was found for this image stem.
+41. [ERROR] image_to_index_mapping | 4bac29c7__all_markers_shot_20260520_192811.jpg
+   No consumption record was found for this image stem.
+42. [ERROR] image_to_index_mapping | 4f7a18c3__all_markers_shot_20260520_193236.jpg
+   No consumption record was found for this image stem.
+43. [ERROR] image_to_index_mapping | 50fecdbd__all_markers_shot_20260529_163640.jpg
+   No consumption record was found for this image stem.
+44. [ERROR] image_to_index_mapping | 510de21b__all_markers_shot_20260520_175150.jpg
+   No consumption record was found for this image stem.
+45. [ERROR] image_to_index_mapping | 52338d04__all_markers_shot_20260520_183138.jpg
+   No consumption record was found for this image stem.
+46. [ERROR] image_to_index_mapping | 5457aa67__all_markers_shot_20260520_170001.jpg
+   No consumption record was found for this image stem.
+47. [ERROR] image_to_index_mapping | 571d8f81__all_markers_shot_20260520_191727.jpg
+   No consumption record was found for this image stem.
+48. [ERROR] image_to_index_mapping | 57539490__all_markers_shot_20260520_171726.jpg
+   No consumption record was found for this image stem.
+49. [ERROR] image_to_index_mapping | 57d60dfd__all_markers_shot_20260520_183047.jpg
+   No consumption record was found for this image stem.
+50. [ERROR] image_to_index_mapping | 57e95f89__all_markers_shot_20260520_172353.jpg
+   No consumption record was found for this image stem.
+51. [ERROR] image_to_index_mapping | 5c8e8891__all_markers_shot_20260520_171906.jpg
+   No consumption record was found for this image stem.
+52. [ERROR] image_to_index_mapping | 5caee1c9__all_markers_shot_20260520_190614.jpg
+   No consumption record was found for this image stem.
+53. [ERROR] image_to_index_mapping | 602433d8__all_markers_shot_20260529_165933.jpg
+   No consumption record was found for this image stem.
+54. [ERROR] image_to_index_mapping | 61537600__all_markers_shot_20260520_173604.jpg
+   No consumption record was found for this image stem.
+55. [ERROR] image_to_index_mapping | 63f393e5__all_markers_shot_20260520_181642.jpg
+   No consumption record was found for this image stem.
+56. [ERROR] image_to_index_mapping | 67cc2ef8__all_markers_shot_20260520_183622.jpg
+   No consumption record was found for this image stem.
+57. [ERROR] image_to_index_mapping | 696f3f5e__all_markers_shot_20260520_173008.jpg
+   No consumption record was found for this image stem.
+58. [ERROR] image_to_index_mapping | 6c68fafb__all_markers_shot_20260520_192604.jpg
+   No consumption record was found for this image stem.
+59. [ERROR] image_to_index_mapping | 7150e05c__all_markers_shot_20260520_193200.jpg
+   No consumption record was found for this image stem.
+60. [ERROR] image_to_index_mapping | 75325ba7__all_markers_shot_20260520_174107.jpg
+   No consumption record was found for this image stem.
+61. [ERROR] image_to_index_mapping | 75d7063a__all_markers_shot_20260520_180229.jpg
+   No consumption record was found for this image stem.
+62. [ERROR] image_to_index_mapping | 788788d9__all_markers_shot_20260520_174257.jpg
+   No consumption record was found for this image stem.
+63. [ERROR] image_to_index_mapping | 7a34e1fc__all_markers_shot_20260520_190321.jpg
+   No consumption record was found for this image stem.
+64. [ERROR] image_to_index_mapping | 7dbacc25__all_markers_shot_20260520_193423.jpg
+   No consumption record was found for this image stem.
+65. [ERROR] image_to_index_mapping | 7e78acbe__all_markers_shot_20260520_190431.jpg
+   No consumption record was found for this image stem.
+66. [ERROR] image_to_index_mapping | 807dacfd__all_markers_shot_20260529_165104.jpg
+   No consumption record was found for this image stem.
+67. [ERROR] image_to_index_mapping | 8964fca0__all_markers_shot_20260520_192239.jpg
+   No consumption record was found for this image stem.
+68. [ERROR] image_to_index_mapping | 8d3887b4__all_markers_shot_20260520_173647.jpg
+   No consumption record was found for this image stem.
+69. [ERROR] image_to_index_mapping | 8e8e3966__all_markers_shot_20260520_190047.jpg
+   No consumption record was found for this image stem.
+70. [ERROR] image_to_index_mapping | 91fdba0e__all_markers_shot_20260520_192206.jpg
+   No consumption record was found for this image stem.
+71. [ERROR] image_to_index_mapping | 952f5c43__all_markers_shot_20260520_190805.jpg
+   No consumption record was found for this image stem.
+72. [ERROR] image_to_index_mapping | 978240a8__all_markers_shot_20260520_165723.jpg
+   No consumption record was found for this image stem.
+73. [ERROR] image_to_index_mapping | 9819838c__all_markers_shot_20260520_182351.jpg
+   No consumption record was found for this image stem.
+74. [ERROR] image_to_index_mapping | 98cdacc9__all_markers_shot_20260520_180926.jpg
+   No consumption record was found for this image stem.
+75. [ERROR] image_to_index_mapping | 9b62693c__all_markers_shot_20260520_191158.jpg
+   No consumption record was found for this image stem.
+76. [ERROR] image_to_index_mapping | 9d8cdd69__all_markers_shot_20260520_170836.jpg
+   No consumption record was found for this image stem.
+77. [ERROR] image_to_index_mapping | 9ebaed46__all_markers_shot_20260520_172648.jpg
+   No consumption record was found for this image stem.
+78. [ERROR] image_to_index_mapping | a0d4bdf6__all_markers_shot_20260529_152137.jpg
+   No consumption record was found for this image stem.
+79. [ERROR] image_to_index_mapping | a56aaa6a__all_markers_shot_20260520_180326.jpg
+   No consumption record was found for this image stem.
+80. [ERROR] image_to_index_mapping | a634af6a__all_markers_shot_20260520_191604.jpg
+   No consumption record was found for this image stem.
+81. [ERROR] image_to_index_mapping | a90cee23__all_markers_shot_20260520_180404.jpg
+   No consumption record was found for this image stem.
+82. [ERROR] image_to_index_mapping | a9a6da83__all_markers_shot_20260529_171410.jpg
+   No consumption record was found for this image stem.
+83. [ERROR] image_to_index_mapping | aa90e2c5__all_markers_shot_20260529_171603.jpg
+   No consumption record was found for this image stem.
+84. [ERROR] image_to_index_mapping | ae7e1b37__all_markers_shot_20260520_182639.jpg
+   No consumption record was found for this image stem.
+85. [ERROR] image_to_index_mapping | afb577df__all_markers_shot_20260520_183748.jpg
+   No consumption record was found for this image stem.
+86. [ERROR] image_to_index_mapping | b5152c06__all_markers_shot_20260520_181836.jpg
+   No consumption record was found for this image stem.
+87. [ERROR] image_to_index_mapping | b5a09a8e__all_markers_shot_20260520_181423.jpg
+   No consumption record was found for this image stem.
+88. [ERROR] image_to_index_mapping | b61e2860__all_markers_shot_20260520_173341.jpg
+   No consumption record was found for this image stem.
+89. [ERROR] image_to_index_mapping | b6c3ecca__all_markers_shot_20260520_175058.jpg
+   No consumption record was found for this image stem.
+90. [ERROR] image_to_index_mapping | b71cde6b__all_markers_shot_20260520_170156.jpg
+   No consumption record was found for this image stem.
+91. [ERROR] image_to_index_mapping | bfa551e8__all_markers_shot_20260520_193026.jpg
+   No consumption record was found for this image stem.
+92. [ERROR] image_to_index_mapping | c0d95aec__all_markers_shot_20260520_180521.jpg
+   No consumption record was found for this image stem.
+93. [ERROR] image_to_index_mapping | c2e3d8d2__all_markers_shot_20260520_192407.jpg
+   No consumption record was found for this image stem.
+94. [ERROR] image_to_index_mapping | c3d29ec9__all_markers_shot_20260520_191127.jpg
+   No consumption record was found for this image stem.
+95. [ERROR] image_to_index_mapping | c40330cc__all_markers_shot_20260520_181122.jpg
+   No consumption record was found for this image stem.
+96. [ERROR] image_to_index_mapping | ca807cc5__all_markers_shot_20260520_191302.jpg
+   No consumption record was found for this image stem.
+97. [ERROR] image_to_index_mapping | cda5dc80__all_markers_shot_20260520_183434.jpg
+   No consumption record was found for this image stem.
+98. [ERROR] image_to_index_mapping | ce68acc0__all_markers_shot_20260520_190927.jpg
+   No consumption record was found for this image stem.
+99. [ERROR] image_to_index_mapping | d4325af5__all_markers_shot_20260520_172143.jpg
+   No consumption record was found for this image stem.
+100. [ERROR] image_to_index_mapping | d6109ec5__all_markers_shot_20260520_172025.jpg
+   No consumption record was found for this image stem.
+101. [ERROR] image_to_index_mapping | d6a3b9cb__all_markers_shot_20260520_192626.jpg
+   No consumption record was found for this image stem.
+102. [ERROR] image_to_index_mapping | d736cad4__all_markers_shot_20260520_180713.jpg
+   No consumption record was found for this image stem.
+103. [ERROR] image_to_index_mapping | db357700__all_markers_shot_20260520_181720.jpg
+   No consumption record was found for this image stem.
+104. [ERROR] image_to_index_mapping | dd3421ce__all_markers_shot_20260520_174327.jpg
+   No consumption record was found for this image stem.
+105. [ERROR] image_to_index_mapping | dd3a944f__all_markers_shot_20260520_181940.jpg
+   No consumption record was found for this image stem.
+106. [ERROR] image_to_index_mapping | dd7f4fbb__all_markers_shot_20260520_172912.jpg
+   No consumption record was found for this image stem.
+107. [ERROR] image_to_index_mapping | de223bbe__all_markers_shot_20260520_172847.jpg
+   No consumption record was found for this image stem.
+108. [ERROR] image_to_index_mapping | e0cf760f__all_markers_shot_20260520_185611.jpg
+   No consumption record was found for this image stem.
+109. [ERROR] image_to_index_mapping | e2f380f6__all_markers_shot_20260520_180759.jpg
+   No consumption record was found for this image stem.
+110. [ERROR] image_to_index_mapping | e6d15e3f__all_markers_shot_20260520_190215.jpg
+   No consumption record was found for this image stem.
+111. [ERROR] image_to_index_mapping | e6e4fdca__all_markers_shot_20260520_192458.jpg
+   No consumption record was found for this image stem.
+112. [ERROR] image_to_index_mapping | e734603b__all_markers_shot_20260520_170714.jpg
+   No consumption record was found for this image stem.
+113. [ERROR] image_to_index_mapping | e796bdb1__all_markers_shot_20260520_172308.jpg
+   No consumption record was found for this image stem.
+114. [ERROR] image_to_index_mapping | e81e6a0a__all_markers_shot_20260520_170514.jpg
+   No consumption record was found for this image stem.
+115. [ERROR] image_to_index_mapping | e91f730c__all_markers_shot_20260520_170938.jpg
+   No consumption record was found for this image stem.
+116. [ERROR] image_to_index_mapping | ea21f478__all_markers_shot_20260520_171018.jpg
+   No consumption record was found for this image stem.
+117. [ERROR] image_to_index_mapping | ebd7de3d__all_markers_shot_20260520_181220.jpg
+   No consumption record was found for this image stem.
+118. [ERROR] image_to_index_mapping | ed77dd2e__all_markers_shot_20260520_190246.jpg
+   No consumption record was found for this image stem.
+119. [ERROR] image_to_index_mapping | ef7f5749__all_markers_shot_20260520_192915.jpg
+   No consumption record was found for this image stem.
+120. [ERROR] image_to_index_mapping | ef972be1__all_markers_shot_20260529_154028.jpg
+   No consumption record was found for this image stem.
+121. [ERROR] image_to_index_mapping | f010832f__all_markers_shot_20260520_173246.jpg
+   No consumption record was found for this image stem.
+122. [ERROR] image_to_index_mapping | f2cc6c08__all_markers_shot_20260520_175512.jpg
+   No consumption record was found for this image stem.
+123. [ERROR] image_to_index_mapping | f2ff80ce__all_markers_shot_20260520_182049.jpg
+   No consumption record was found for this image stem.
+124. [ERROR] image_to_index_mapping | f5b86d08__all_markers_shot_20260529_172947.jpg
+   No consumption record was found for this image stem.
+125. [ERROR] image_to_index_mapping | f5eacd7e__all_markers_shot_20260528_142654.jpg
+   No consumption record was found for this image stem.
+126. [ERROR] image_to_index_mapping | f86187e9__all_markers_shot_20260520_165748.jpg
+   No consumption record was found for this image stem.
+127. [ERROR] image_to_index_mapping | fc009f5d__all_markers_shot_20260529_170027.jpg
+   No consumption record was found for this image stem.
+128. [ERROR] image_to_index_mapping | all_markers_shot_20260528_150117
+   The index contains a record for an image that does not exist on disk.
+129. [ERROR] zero_consumption_and_missing_mask | 68ebe3f2__all_markers_shot_20260528_143834.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+130. [ERROR] zero_consumption_and_missing_mask | 038be616__all_markers_shot_20260528_141313.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+131. [ERROR] zero_consumption_and_missing_mask | ff0fc3f5__all_markers_shot_20260528_141336.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+132. [ERROR] zero_consumption_and_missing_mask | 5b2fdbf3__all_markers_shot_20260528_141439.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+133. [ERROR] zero_consumption_and_missing_mask | f9141b3c__all_markers_shot_20260528_141635.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+134. [ERROR] zero_consumption_and_missing_mask | 0a5ec2d2__all_markers_shot_20260528_141750.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+135. [ERROR] zero_consumption_and_missing_mask | 886259b8__all_markers_shot_20260528_141804.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+136. [ERROR] zero_consumption_and_missing_mask | e67d4982__all_markers_shot_20260528_141825.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+137. [ERROR] zero_consumption_and_missing_mask | 3d22a3f9__all_markers_shot_20260528_141835.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+138. [ERROR] zero_consumption_and_missing_mask | 0287feb9__all_markers_shot_20260519_143742.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+139. [ERROR] zero_consumption_and_missing_mask | 13d3da77__all_markers_shot_20260519_144013.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+140. [ERROR] zero_consumption_and_missing_mask | a6e3a794__all_markers_shot_20260519_144422.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+141. [ERROR] zero_consumption_and_missing_mask | 10cb2adb__all_markers_shot_20260519_142948.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+142. [ERROR] zero_consumption_and_missing_mask | 87f3f88b__all_markers_shot_20260519_143020.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+143. [ERROR] zero_consumption_and_missing_mask | 7eafd829__all_markers_shot_20260519_143120.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+144. [ERROR] zero_consumption_and_missing_mask | 68c15968__all_markers_shot_20260519_143242.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+145. [ERROR] zero_consumption_and_missing_mask | b842a783__all_markers_shot_20260519_143257.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+146. [ERROR] zero_consumption_and_missing_mask | 2c731317__all_markers_shot_20260519_143349.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.
+147. [ERROR] zero_consumption_and_missing_mask | ef98c35b__all_markers_shot_20260519_143445.jpg
+   pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels.

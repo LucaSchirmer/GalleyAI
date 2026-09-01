@@ -50,9 +50,11 @@ still learn even when everything else is frozen).
 | `euclidean` | Non-parametric| normalized Euclidean distance + learned scale/bias calibration |
 | *(hybrid_gbr)* | Hybrid ML  | **not** in this list — see below |
 
-The classification head (drinks/extras/cookie) is always attached regardless
-of which regression head you pick — it needs its own small trunk since the
-distance heads have no shared representation to reuse.
+The learned heads also receive a stable metric embedding and five explicit
+mask-geometry features (before/after area, remaining-area ratio, area
+reduction, and missing-after flag). This makes item identity and the strongest
+pixel-counting signal explicit instead of asking the visual backbone to infer
+both from scratch.
 
 ## Running experiments
 
@@ -64,6 +66,22 @@ python  siamese_consumption_model/training/train.py --backbone convnext_tiny --h
 python  siamese_consumption_model/training/train.py --backbone vit_b16 --head euclidean --epochs 100 --batch-size 8
 python  siamese_consumption_model/training/train.py --help   # full flag list (lr, patience, freeze, etc.)
 ```
+
+Recommended controlled ViT experiment after regenerating the grouped split:
+
+```bash
+PYTHONPATH=siamese_consumption_model python siamese_consumption_model/training/train.py \
+  --backbone vit_b16 --head mlp --regression-loss huber --huber-beta 0.1 \
+  --balanced-sampling --unfreeze-last-blocks 2 \
+  --lr 1e-3 --backbone-lr 1e-5 --batch-size 8 \
+  --run-name vit_b16_mlp_context_huber_seed42
+```
+
+Run the same configuration with seeds 43 and 44 before drawing conclusions.
+For an ablation on the same new split, add `--no-metric-embedding`,
+`--no-aux-features`, or both. Passing both recreates the old head shapes, so
+historical checkpoints can be evaluated with the same flags. Always use a new
+run name for context-enabled runs.
 
 The **Hybrid ML** head (embeddings → Gradient Boosting Regressor) has no
 gradient-trained weights at all, so it can't share the epoch/optimizer loop —

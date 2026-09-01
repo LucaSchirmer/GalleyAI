@@ -1,0 +1,5 @@
+{
+  "run_name": "final_sweep_convnext_tiny_cosine_seed42",
+  "artifact": "/mnt/c/Users/LucaS/Desktop/programmieren_code/ba_thesis/GalleyAI/siamese_consumption_model/runs/siamese/final_sweep_convnext_tiny_cosine_seed42/best.pt",
+  "finished_utc": "2026-09-01T05:16:31.820417+00:00"
+}

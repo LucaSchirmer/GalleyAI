@@ -25,6 +25,7 @@ still available with --feature-set full for an ablation.
 Run from the project root:
     python training/train_hybrid_gbr.py --backbone resnet50
     python training/train_hybrid_gbr.py --backbone convnext_tiny --n-estimators 500
+    python training/train_hybrid_gbr.py --skip-fish-rice-veg
 """
 
 from __future__ import annotations
@@ -73,7 +74,7 @@ def extract_features(backbone, loader, device, feature_set: str):
     feats, targets = [], []
     backbone.eval()
     with torch.no_grad():
-        for before, after, target, task in loader:
+        for before, after, target, task, metric_id, aux_features in loader:
             keep = [i for i, t in enumerate(task) if t == "regression"]
             if not keep:
                 continue
@@ -89,11 +90,14 @@ def extract_features(backbone, loader, device, feature_set: str):
             if feature_set == "full":
                 # Original high-capacity feature vector, kept for comparison.
                 prod = feat_before * feat_after
-                batch_feat = torch.cat([feat_before, feat_after, diff, prod, cosine, euclid], dim=1)
+                batch_feat = torch.cat([
+                    feat_before, feat_after, diff, prod, cosine, euclid,
+                    aux_features[keep].to(device),
+                ], dim=1)
             else:  # "delta"
                 # Consumption is a change task. Do not make the regressor
                 # memorize absolute tray/food appearance unnecessarily.
-                batch_feat = torch.cat([diff, cosine, euclid], dim=1)
+                batch_feat = torch.cat([diff, cosine, euclid, aux_features[keep].to(device)], dim=1)
             feats.append(batch_feat.cpu().numpy())
             targets.append(target.numpy())
 
@@ -118,6 +122,8 @@ def parse_args():
     parser.add_argument("--early-stopping-rounds", type=int, default=50,
                         help="GBR early stopping rounds; set 0 to disable")
     parser.add_argument("--batch-size", type=int, default=16)
+    parser.add_argument("--skip-fish-rice-veg", action="store_true",
+                        help="exclude pct_fish_rice_veg regression samples from train and validation")
     parser.add_argument("--num-workers", type=int, default=2)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--run-name", default=None, help="MLflow run name; defaults to '<backbone>_hybrid_gbr'")
@@ -135,8 +141,15 @@ def main():
 
     # train_mode=False for BOTH splits: the GBR sees fixed, non-augmented
     # embeddings -- there's no epoch loop to average random flips over.
-    train_ds = ConsumptionPairDataset(args.train_manifest, mask_cache_dir=args.mask_cache_dir, train_mode=False)
-    val_ds = ConsumptionPairDataset(args.val_manifest, mask_cache_dir=args.mask_cache_dir, train_mode=False)
+    excluded_metrics = ("pct_fish_rice_veg",) if args.skip_fish_rice_veg else ()
+    train_ds = ConsumptionPairDataset(
+        args.train_manifest, mask_cache_dir=args.mask_cache_dir, train_mode=False,
+        excluded_metric_names=excluded_metrics,
+    )
+    val_ds = ConsumptionPairDataset(
+        args.val_manifest, mask_cache_dir=args.mask_cache_dir, train_mode=False,
+        excluded_metric_names=excluded_metrics,
+    )
     train_loader = DataLoader(train_ds, batch_size=args.batch_size, shuffle=False, num_workers=args.num_workers)
     val_loader = DataLoader(val_ds, batch_size=args.batch_size, shuffle=False, num_workers=args.num_workers)
 
@@ -185,7 +198,8 @@ def main():
     # Include the important configuration in the default name so ablation
     # runs never overwrite one another's serialized pipeline.
     pca_tag = f"pca{args.pca_components}" if args.pca_components else "no_pca"
-    run_name = args.run_name or f"{args.backbone}_hybrid_gbr_{args.feature_set}_{pca_tag}_{args.loss}"
+    filter_tag = "_no_fish_rice_veg" if args.skip_fish_rice_veg else ""
+    run_name = args.run_name or f"{args.backbone}_hybrid_gbr_{args.feature_set}_{pca_tag}_{args.loss}{filter_tag}"
     checkpoint_dir = CHECKPOINT_ROOT / run_name
     checkpoint_dir.mkdir(parents=True, exist_ok=True)
 
@@ -208,6 +222,7 @@ def main():
                 "max_features": args.max_features,
                 "loss": args.loss,
                 "early_stopping_rounds": args.early_stopping_rounds,
+                "skip_fish_rice_veg": args.skip_fish_rice_veg,
                 "train_samples": int(X_train.shape[0]),
                 "val_samples": int(X_val.shape[0]),
                 "feature_dim": int(X_train.shape[1]),

@@ -41,9 +41,10 @@ import mlflow
 import numpy as np
 import torch
 from PIL import Image, ImageDraw
-from sklearn.metrics import confusion_matrix
+from sklearn.metrics import balanced_accuracy_score, confusion_matrix, f1_score, precision_score, recall_score
+from torch.utils.data import DataLoader
 
-from data.siamese_dataset import ConsumptionPairDataset, build_mask_array
+from data.siamese_dataset import AUX_FEATURE_DIM, ConsumptionPairDataset, build_mask_array
 from models.siamese_net import SiameseConsumptionNet, list_regression_heads
 from models.backbones import list_backbones
 
@@ -72,6 +73,12 @@ def parse_args():
     parser.add_argument("--mask-cache-dir", type=Path, default=MASK_CACHE_DIR)
     parser.add_argument("--run-name", default=None, help="defaults to '<backbone>_<head>' -- must match the training run to link back to it")
     parser.add_argument("--batch-size", type=int, default=16)
+    parser.add_argument("--metric-embedding-dim", type=int, default=16,
+                        help="legacy fallback; the dimension is normally detected from the checkpoint")
+    parser.add_argument("--no-metric-embedding", action="store_true",
+                        help="require a checkpoint trained without metric embeddings")
+    parser.add_argument("--no-aux-features", action="store_true",
+                        help="require a checkpoint trained without auxiliary mask features")
     parser.add_argument("--gallery-samples", type=int, default=12, help="number of before/after tray pairs to render in the sample gallery")
     parser.add_argument("--seed", type=int, default=42)
     return parser.parse_args()
@@ -81,9 +88,74 @@ def parse_args():
 # INFERENCE
 # ══════════════════════════════════════════════════════════════════════════════
 
-def load_model(backbone: str, head: str, checkpoint_path: Path, device) -> SiameseConsumptionNet:
-    model = SiameseConsumptionNet(backbone_name=backbone, head_name=head, pretrained=False)
-    state_dict = torch.load(checkpoint_path, map_location=device)
+def infer_checkpoint_context(state_dict: Dict[str, torch.Tensor], feature_dim: int) -> Tuple[int, bool]:
+    """Infer metric-embedding width and auxiliary-feature use from saved shapes."""
+    classifier_weight = state_dict.get("classification_head.net.0.weight")
+    if classifier_weight is None:
+        raise RuntimeError(
+            "Checkpoint has no 'classification_head.net.0.weight'; "
+            "it is not a compatible SiameseConsumptionNet state dict."
+        )
+
+    context_dim = classifier_weight.shape[1] - 4 * feature_dim
+    embedding_weight = state_dict.get("metric_embedding.weight")
+    metric_embedding_dim = embedding_weight.shape[1] if embedding_weight is not None else 0
+    aux_dim = context_dim - metric_embedding_dim
+    if context_dim < 0 or aux_dim not in (0, AUX_FEATURE_DIM):
+        raise RuntimeError(
+            "Could not infer checkpoint context architecture: "
+            f"classifier input={classifier_weight.shape[1]}, feature_dim={feature_dim}, "
+            f"metric_embedding_dim={metric_embedding_dim}, inferred_aux_dim={aux_dim}."
+        )
+    return metric_embedding_dim, aux_dim == AUX_FEATURE_DIM
+
+
+def load_model(
+    backbone: str,
+    head: str,
+    checkpoint_path: Path,
+    device,
+    metric_embedding_dim: int = 16,
+    use_metric_embedding: bool | None = None,
+    use_aux_features: bool | None = None,
+) -> SiameseConsumptionNet:
+    state_dict = torch.load(checkpoint_path, map_location=device, weights_only=True)
+    checkpoint_embedding = state_dict.get("metric_embedding.weight")
+    checkpoint_metric_dim = checkpoint_embedding.shape[1] if checkpoint_embedding is not None else 0
+
+    # Construct once to obtain the backbone's actual output width. Starting
+    # without auxiliary inputs also matches legacy checkpoints such as v3.
+    model = SiameseConsumptionNet(
+        backbone_name=backbone,
+        head_name=head,
+        pretrained=False,
+        metric_embedding_dim=checkpoint_metric_dim or metric_embedding_dim,
+        use_metric_embedding=checkpoint_metric_dim > 0,
+        use_aux_features=False,
+    )
+    detected_metric_dim, detected_aux = infer_checkpoint_context(state_dict, model.backbone.feature_dim)
+    detected_metric = detected_metric_dim > 0
+
+    if use_metric_embedding is False and detected_metric:
+        raise RuntimeError("Checkpoint contains metric embeddings but --no-metric-embedding was supplied.")
+    if use_aux_features is False and detected_aux:
+        raise RuntimeError("Checkpoint contains auxiliary features but --no-aux-features was supplied.")
+
+    if detected_aux:
+        model = SiameseConsumptionNet(
+            backbone_name=backbone,
+            head_name=head,
+            pretrained=False,
+            metric_embedding_dim=detected_metric_dim or metric_embedding_dim,
+            use_metric_embedding=detected_metric,
+            use_aux_features=True,
+        )
+
+    print(
+        "Detected checkpoint context: "
+        f"metric_embedding={'off' if not detected_metric else f'{detected_metric_dim}d'}, "
+        f"aux_features={'on' if detected_aux else 'off'}"
+    )
     model.load_state_dict(state_dict)
     model.to(device).eval()
     return model
@@ -95,14 +167,17 @@ def collect_predictions(model, dataset: ConsumptionPairDataset, device, batch_si
     (image paths, classes, task) that dataset.__getitem__ doesn't expose."""
     records: List[Dict[str, Any]] = []
     samples = dataset.samples
+    loader = DataLoader(dataset, batch_size=batch_size, shuffle=False)
+    sample_offset = 0
 
     with torch.no_grad():
-        for start in range(0, len(samples), batch_size):
-            batch = samples[start:start + batch_size]
-            before = torch.stack([dataset._load_tensor(s["before"], s["classes"]) for s in batch]).to(device)
-            after = torch.stack([dataset._load_tensor(s["after"], s["classes"]) for s in batch]).to(device)
+        for before, after, target, task, metric_id, aux_features in loader:
+            batch = samples[sample_offset:sample_offset + before.size(0)]
+            sample_offset += before.size(0)
+            before, after = before.to(device), after.to(device)
+            metric_id, aux_features = metric_id.to(device), aux_features.to(device)
 
-            reg_out, clf_logit = model(before, after)
+            reg_out, clf_logit = model(before, after, metric_id, aux_features)
             reg_pred = torch.clamp(reg_out, 0.0, 1.0).cpu().numpy()
             clf_pred = torch.sigmoid(clf_logit).cpu().numpy()
 
@@ -411,7 +486,15 @@ def main():
         )
 
     print(f"Loading checkpoint: {checkpoint_path}")
-    model = load_model(args.backbone, args.head, checkpoint_path, device)
+    model = load_model(
+        args.backbone,
+        args.head,
+        checkpoint_path,
+        device,
+        metric_embedding_dim=args.metric_embedding_dim,
+        use_metric_embedding=False if args.no_metric_embedding else None,
+        use_aux_features=False if args.no_aux_features else None,
+    )
 
     print(f"Loading {args.split} split: {args.manifest}")
     dataset = ConsumptionPairDataset(args.manifest, mask_cache_dir=args.mask_cache_dir, train_mode=False)
@@ -428,8 +511,22 @@ def main():
         overall["regression_rmse_pct"] = round(float(np.sqrt((errors ** 2).mean())), 2)
         overall["regression_n_samples"] = len(reg)
     if clf:
-        correct = [( (r["pred_pct"] >= 50) == (r["target_pct"] >= 50) ) for r in clf]
+        y_true = np.array([r["target_pct"] >= 50 for r in clf])
+        y_pred = np.array([r["pred_pct"] >= 50 for r in clf])
+        correct = y_pred == y_true
         overall["classification_accuracy"] = round(float(np.mean(correct)) * 100, 2)
+        overall["classification_balanced_accuracy"] = round(
+            float(balanced_accuracy_score(y_true, y_pred)) * 100, 2
+        )
+        overall["classification_macro_f1"] = round(
+            float(f1_score(y_true, y_pred, average="macro", zero_division=0)) * 100, 2
+        )
+        overall["classification_consumed_precision"] = round(
+            float(precision_score(y_true, y_pred, zero_division=0)) * 100, 2
+        )
+        overall["classification_consumed_recall"] = round(
+            float(recall_score(y_true, y_pred, zero_division=0)) * 100, 2
+        )
         overall["classification_n_samples"] = len(clf)
 
     print("Overall:", overall)

@@ -35,15 +35,18 @@ def run_epoch(model, loader, device, optimizer=None, regression_loss: str = "mse
     total_loss = 0.0
     reg_mae_sum, reg_n = 0.0, 0
     clf_correct_sum, clf_n = 0.0, 0
+    clf_tp = clf_tn = clf_fp = clf_fn = 0
     n = 0
 
     with torch.set_grad_enabled(is_train):
-        for before, after, target, task in loader:
+        for before, after, target, task, metric_id, aux_features in loader:
             before, after, target = before.to(device), after.to(device), target.to(device)
+            metric_id = metric_id.to(device)
+            aux_features = aux_features.to(device)
             is_regression = torch.tensor([t == "regression" for t in task], device=device)
             is_classification = ~is_regression
 
-            reg_out, clf_logit = model(before, after)
+            reg_out, clf_logit = model(before, after, metric_id, aux_features)
 
             loss = torch.zeros((), device=device)
             if is_regression.any():
@@ -69,11 +72,25 @@ def run_epoch(model, loader, device, optimizer=None, regression_loss: str = "mse
                 clf_pred_label = torch.sigmoid(clf_logit[is_classification]) >= 0.5
                 clf_true_label = target[is_classification] >= 0.5
                 clf_correct_sum += (clf_pred_label == clf_true_label).sum().item()
+                clf_tp += (clf_pred_label & clf_true_label).sum().item()
+                clf_tn += (~clf_pred_label & ~clf_true_label).sum().item()
+                clf_fp += (clf_pred_label & ~clf_true_label).sum().item()
+                clf_fn += (~clf_pred_label & clf_true_label).sum().item()
                 clf_n += int(is_classification.sum().item())
+
+    clf_recall_consumed = clf_tp / (clf_tp + clf_fn) if clf_tp + clf_fn else float("nan")
+    clf_recall_not_consumed = clf_tn / (clf_tn + clf_fp) if clf_tn + clf_fp else float("nan")
+    if clf_tp + clf_fn and clf_tn + clf_fp:
+        clf_balanced_acc = (clf_recall_consumed + clf_recall_not_consumed) / 2
+    else:
+        clf_balanced_acc = float("nan")
 
     metrics = {
         "loss": total_loss / n if n else float("nan"),
         "reg_mae": reg_mae_sum / reg_n if reg_n else float("nan"),
         "clf_acc": clf_correct_sum / clf_n if clf_n else float("nan"),
+        "clf_balanced_acc": clf_balanced_acc,
+        "clf_recall_consumed": clf_recall_consumed,
+        "clf_recall_not_consumed": clf_recall_not_consumed,
     }
     return metrics

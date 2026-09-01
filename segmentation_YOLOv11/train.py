@@ -1,34 +1,68 @@
+"""Train YOLO segmentation on the current prepared dataset.
+
+Run from anywhere in the repository. By default this fine-tunes the previous
+best checkpoint; pass ``--model yolo11m-seg.pt`` for a fresh pretrained run.
+"""
+
+from __future__ import annotations
+
+import argparse
+from pathlib import Path
+
 from ultralytics import YOLO
 
-def main():
-    # 1. Load the pretrained YOLO11 Medium Segmentation weights
-    model = YOLO("yolo11m-seg.pt")
 
-    # 2. Full training run (no longer just a pipeline smoke test)
-    results = model.train(
-        data="./data_with_splits/dataset.yaml",  # Path to the YAML file you made
+REPO_ROOT = Path(__file__).resolve().parents[1]
+DEFAULT_DATA = REPO_ROOT / "data_with_splits" / "dataset.yaml"
+DEFAULT_MODEL = REPO_ROOT / "runs" / "segment" / "runs" / "segment" / "baseline_v2" / "weights" / "best.pt"
+DEFAULT_PROJECT = REPO_ROOT / "runs" / "segment"
 
-        epochs=300,                  # Upper bound — patience below will stop earlier
-        patience=50,                 # Stop if val fitness hasn't improved in 50 epochs
-        imgsz=640,                   # Keeps VRAM usage low; try 960 later if small
-                                      # instances (rice/carrots/broccoli) still confuse
-                                      # each other after this run
-        batch=8,                     # Small batch size to prevent memory crashes
-        device=0,                    # Uses your Nvidia GPU; set to "cpu" if you don't have one
-        amp=True,                    # Enables Automatic Mixed Precision to save VRAM
-        workers=2,                   # Keeps CPU data loading stable on Windows
 
-        mask_ratio=2,                # Finer mask resolution (default 4) — helps with
-                                      # the many small/overlapping rice/veg instances
-        cache=True,                  # Cache images in RAM; dataset is small enough
-                                      # and this gets re-read every epoch for 300 epochs
-        cos_lr=True,                 # Cosine LR schedule, tends to converge more
-                                      # smoothly over longer runs than linear decay
-        seed=42,                     # Reproducible runs, matches the split's SEED
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--model", default=str(DEFAULT_MODEL),
+                        help="checkpoint to fine-tune, or e.g. yolo11m-seg.pt")
+    parser.add_argument("--data", type=Path, default=DEFAULT_DATA)
+    parser.add_argument("--project", type=Path, default=DEFAULT_PROJECT)
+    parser.add_argument("--name", default="baseline_v3_current")
+    parser.add_argument("--epochs", type=int, default=200)
+    parser.add_argument("--patience", type=int, default=50)
+    parser.add_argument("--batch", type=int, default=8)
+    parser.add_argument("--imgsz", type=int, default=640)
+    parser.add_argument("--device", default="0")
+    parser.add_argument("--workers", type=int, default=2)
+    return parser.parse_args()
 
-        project="runs/segment",      # Also becomes the MLflow experiment name
-        name="baseline_v2",          # Also becomes the MLflow run name
+
+def main() -> None:
+    args = parse_args()
+    if not args.data.exists():
+        raise FileNotFoundError(f"Dataset YAML not found: {args.data.resolve()}")
+    if args.model != "yolo11m-seg.pt" and not Path(args.model).exists():
+        raise FileNotFoundError(f"Starting checkpoint not found: {Path(args.model).resolve()}")
+
+    print(f"Training data: {args.data.resolve()}")
+    print(f"Starting checkpoint: {args.model}")
+    print(f"Output: {(args.project / args.name).resolve()}")
+
+    model = YOLO(args.model)
+    model.train(
+        data=str(args.data.resolve()),
+        epochs=args.epochs,
+        patience=args.patience,
+        imgsz=args.imgsz,
+        batch=args.batch,
+        device=args.device,
+        amp=True,
+        workers=args.workers,
+        mask_ratio=2,
+        cache=True,
+        cos_lr=True,
+        seed=42,
+        project=str(args.project.resolve()),
+        name=args.name,
     )
+
 
 if __name__ == "__main__":
     main()

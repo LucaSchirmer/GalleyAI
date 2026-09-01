@@ -1,0 +1,68 @@
+[
+  {
+    "run_name": "final_sweep_resnet50_mlp_seed42",
+    "backbone": "resnet50",
+    "head": "mlp",
+    "seed": 42,
+    "status": "completed",
+    "return_code": 0,
+    "started_utc": "2026-08-30T19:12:40.987274+00:00",
+    "finished_utc": "2026-08-31T00:48:19.440672+00:00",
+    "artifact": "/mnt/c/Users/LucaS/Desktop/programmieren_code/ba_thesis/GalleyAI/siamese_consumption_model/runs/siamese/final_sweep_resnet50_mlp_seed42/best.pt"
+  },
+  {
+    "run_name": "final_sweep_resnet50_cosine_seed42",
+    "backbone": "resnet50",
+    "head": "cosine",
+    "seed": 42,
+    "status": "completed",
+    "return_code": 0,
+    "started_utc": "2026-08-31T00:48:19.586081+00:00",
+    "finished_utc": "2026-08-31T12:00:43.213930+00:00",
+    "artifact": "/mnt/c/Users/LucaS/Desktop/programmieren_code/ba_thesis/GalleyAI/siamese_consumption_model/runs/siamese/final_sweep_resnet50_cosine_seed42/best.pt"
+  },
+  {
+    "run_name": "final_sweep_resnet50_euclidean_seed42",
+    "backbone": "resnet50",
+    "head": "euclidean",
+    "seed": 42,
+    "status": "completed",
+    "return_code": 0,
+    "started_utc": "2026-08-31T12:00:43.241191+00:00",
+    "finished_utc": "2026-08-31T23:40:02.276770+00:00",
+    "artifact": "/mnt/c/Users/LucaS/Desktop/programmieren_code/ba_thesis/GalleyAI/siamese_consumption_model/runs/siamese/final_sweep_resnet50_euclidean_seed42/best.pt"
+  },
+  {
+    "run_name": "final_sweep_resnet50_hybrid_gbr_seed42",
+    "backbone": "resnet50",
+    "head": "hybrid_gbr",
+    "seed": 42,
+    "status": "completed",
+    "return_code": 0,
+    "started_utc": "2026-08-31T23:40:02.310934+00:00",
+    "finished_utc": "2026-08-31T23:42:56.978405+00:00",
+    "artifact": "/mnt/c/Users/LucaS/Desktop/programmieren_code/ba_thesis/GalleyAI/siamese_consumption_model/runs/siamese/final_sweep_resnet50_hybrid_gbr_seed42/gbr.joblib"
+  },
+  {
+    "run_name": "final_sweep_convnext_tiny_mlp_seed42",
+    "backbone": "convnext_tiny",
+    "head": "mlp",
+    "seed": 42,
+    "status": "completed",
+    "return_code": 0,
+    "started_utc": "2026-08-31T23:42:56.998213+00:00",
+    "finished_utc": "2026-09-01T00:31:34.436901+00:00",
+    "artifact": "/mnt/c/Users/LucaS/Desktop/programmieren_code/ba_thesis/GalleyAI/siamese_consumption_model/runs/siamese/final_sweep_convnext_tiny_mlp_seed42/best.pt"
+  },
+  {
+    "run_name": "final_sweep_convnext_tiny_cosine_seed42",
+    "backbone": "convnext_tiny",
+    "head": "cosine",
+    "seed": 42,
+    "status": "completed",
+    "return_code": 0,
+    "started_utc": "2026-09-01T00:31:34.458596+00:00",
+    "finished_utc": "2026-09-01T05:16:31.820417+00:00",
+    "artifact": "/mnt/c/Users/LucaS/Desktop/programmieren_code/ba_thesis/GalleyAI/siamese_consumption_model/runs/siamese/final_sweep_convnext_tiny_cosine_seed42/best.pt"
+  }
+]

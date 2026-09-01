@@ -1,0 +1,151 @@
+{
+  "generated_at": "2026-08-29T01:24:19",
+  "image_files_checked": 366,
+  "indexed_images_checked": 366,
+  "issues": [
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "68ebe3f2__all_markers_shot_20260528_143834.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "038be616__all_markers_shot_20260528_141313.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "ff0fc3f5__all_markers_shot_20260528_141336.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "5b2fdbf3__all_markers_shot_20260528_141439.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "f9141b3c__all_markers_shot_20260528_141635.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "0a5ec2d2__all_markers_shot_20260528_141750.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "886259b8__all_markers_shot_20260528_141804.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "e67d4982__all_markers_shot_20260528_141825.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "3d22a3f9__all_markers_shot_20260528_141835.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "807dacfd__all_markers_shot_20260529_165104.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "0f718331__all_markers_shot_20260519_145218.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "0287feb9__all_markers_shot_20260519_143742.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "13d3da77__all_markers_shot_20260519_144013.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "a6e3a794__all_markers_shot_20260519_144422.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "10cb2adb__all_markers_shot_20260519_142948.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "87f3f88b__all_markers_shot_20260519_143020.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "7eafd829__all_markers_shot_20260519_143120.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "68c15968__all_markers_shot_20260519_143242.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "b842a783__all_markers_shot_20260519_143257.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "2c731317__all_markers_shot_20260519_143349.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "ef98c35b__all_markers_shot_20260519_143445.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "e81e6a0a__all_markers_shot_20260520_170514.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "3db414a9__all_markers_shot_20260520_170623.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "e734603b__all_markers_shot_20260520_170714.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    }
+  ]
+}

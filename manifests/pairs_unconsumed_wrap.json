@@ -1,164 +1,303 @@
 [
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_162129.jpg",
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_162129.jpg",
     "consumed": [],
-    "possibleElements": []
+    "possibleElements": ["Cola", "Wrap1", "Wrap2", "Side salad", "Fruit salad", "Cookie"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_162305.jpg",
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_162305.jpg",
     "consumed": [],
-    "possibleElements": []
+    "possibleElements": ["Orange juice", "Wrap1", "Wrap2", "Side salad", "Fruit salad", "Cookie"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_162350.jpg",
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_162350.jpg",
     "consumed": [],
-    "possibleElements": []
+    "possibleElements": ["Water", "Wrap1", "Wrap2", "Side salad", "Fruit salad", "Cookie"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_162421.jpg",
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_162421.jpg",
     "consumed": [],
-    "possibleElements": []
+    "possibleElements": ["Tea", "Wrap1", "Wrap2", "Side salad", "Fruit salad", "Cookie"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_162531.jpg",
-    "consumed": [],
-    "possibleElements": []
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_162531.jpg",
+    "consumed": [
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_175150.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_175247.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_175425.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_175448.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_175512.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_180147.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_180229.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_180326.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_180404.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_180433.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_180501.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_180521.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_180713.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_180759.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_180831.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_180926.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_192407.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_192458.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_192530.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_192604.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_192626.jpg"
+    ],
+    "possibleElements": ["Coffee", "Wrap1", "Wrap2", "Side salad", "Fruit salad", "Cookie"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_162553.jpg",
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_162553.jpg",
     "consumed": [],
-    "possibleElements": []
+    "possibleElements": ["Coffee", "Wrap1", "Wrap2", "Side salad", "Vanilla pudding with fruits", "Cookie"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_162728.jpg",
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_162728.jpg",
     "consumed": [],
-    "possibleElements": []
+    "possibleElements": ["Tea", "Wrap1", "Wrap2", "Side salad", "Vanilla pudding with fruits", "Cookie"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_162909.jpg",
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_162909.jpg",
     "consumed": [],
-    "possibleElements": []
+    "possibleElements": ["Orange juice", "Wrap1", "Wrap2", "Side salad", "Vanilla pudding with fruits", "Cookie"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_163016.jpg",
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_163016.jpg",
     "consumed": [],
-    "possibleElements": []
+    "possibleElements": ["Water", "Wrap1", "Wrap2", "Side salad", "Vanilla pudding with fruits", "Cookie"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_163317.jpg",
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_163317.jpg",
     "consumed": [],
-    "possibleElements": []
+    "possibleElements": ["Cola", "Wrap1", "Wrap2", "Side salad", "Vanilla pudding with fruits", "Cookie"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_163607.jpg",
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_163607.jpg",
     "consumed": [],
-    "possibleElements": []
+    "possibleElements": ["Cola", "Wrap1", "Wrap2", "Side salad", "Chocolate cake", "Cookie"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_163733.jpg",
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_163733.jpg",
     "consumed": [],
-    "possibleElements": []
+    "possibleElements": ["Orange juice", "Wrap1", "Wrap2", "Side salad", "Chocolate cake", "Cookie"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_163805.jpg",
-    "consumed": [],
-    "possibleElements": []
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_163805.jpg",
+    "consumed": [
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_192811.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_192915.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_192954.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_193016.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_193026.jpg"
+    ],
+    "possibleElements": ["Water", "Wrap1", "Wrap2", "Side salad", "Chocolate cake", "Cookie"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_163829.jpg",
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_163829.jpg",
     "consumed": [],
-    "possibleElements": []
+    "possibleElements": ["Tea", "Wrap1", "Wrap2", "Side salad", "Chocolate cake", "Cookie"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_163841.jpg",
-    "consumed": [],
-    "possibleElements": []
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_163841.jpg",
+    "consumed": [
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_192704.jpg"
+    ],
+    "possibleElements": ["Coffee", "Wrap1", "Wrap2", "Side salad", "Chocolate cake", "Cookie"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_164100.jpg",
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_164100.jpg",
     "consumed": [],
-    "possibleElements": []
+    "possibleElements": ["Coffee", "Wrap1", "Wrap2", "Bread roll", "Chocolate cake", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_164253.jpg",
-    "consumed": [],
-    "possibleElements": []
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_164253.jpg",
+    "consumed": [
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_182907.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_183047.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_183138.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_183212.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_183434.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_183622.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_183748.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_185611.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_185846.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_190047.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_190138.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_190215.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_190246.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_190321.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_190359.jpg"
+    ],
+    "possibleElements": ["Tea", "Wrap1", "Wrap2", "Bread roll", "Chocolate cake", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_164331.jpg",
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_164331.jpg",
     "consumed": [],
-    "possibleElements": []
+    "possibleElements": ["Orange juice", "Wrap1", "Wrap2", "Bread roll", "Chocolate cake", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_164352.jpg",
-    "consumed": [],
-    "possibleElements": []
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_164352.jpg",
+    "consumed": [
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_173246.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_173341.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_173359.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_173604.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_173647.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_173730.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_174107.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_174121.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_174150.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_174257.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_174327.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_193200.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_193236.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_193306.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_193423.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_193521.jpg"
+    ],
+    "possibleElements":["Water", "Wrap1", "Wrap2", "Bread roll", "Chocolate cake", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_164410.jpg",
-    "consumed": [],
-    "possibleElements": []
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_164410.jpg",
+    "consumed": [
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_190431.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_190614.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_190727.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_190732.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_190805.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_190850.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_190927.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_191053.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_191127.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_191158.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_191226.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_191302.jpg"
+    ],
+    "possibleElements": ["Cola", "Wrap1", "Wrap2", "Bread roll", "Chocolate cake", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_164523.jpg",
-    "consumed": [],
-    "possibleElements": []
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_164523.jpg",
+    "consumed": [
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_170514.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_170623.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_170714.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_170836.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_191411.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_191604.jpg"
+    ],
+    "possibleElements": ["Cola", "Wrap1", "Wrap2", "Bread roll", "Vanilla pudding with fruits", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_164712.jpg",
-    "consumed": [],
-    "possibleElements": []
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_164712.jpg",
+    "consumed": [
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_170938.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_171018.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_171125.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_171726.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_171821.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_171906.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_172025.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_172143.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_172237.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_172308.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_172353.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_172648.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_172847.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_191635.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_191727.jpg"
+    ],
+    "possibleElements": ["Orange juice", "Wrap1", "Wrap2", "Bread roll", "Vanilla pudding with fruits", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_164837.jpg",
-    "consumed": [],
-    "possibleElements": []
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_164837.jpg",
+    "consumed": [
+        "images_cropped/consumed/wrap/all_markers_shot_20260520_172912.jpg",
+        "images_cropped/consumed/wrap/all_markers_shot_20260520_173008.jpg",
+        "images_cropped/consumed/wrap/all_markers_shot_20260520_173116.jpg"
+    ],
+    "possibleElements": ["Water", "Wrap1", "Wrap2", "Bread roll", "Vanilla pudding with fruits", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_164916.jpg",
-    "consumed": [],
-    "possibleElements": []
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_164916.jpg",
+    "consumed": [
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_181836.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_181940.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_182049.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_182304.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_182351.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_182639.jpg"
+    ],
+    "possibleElements": ["Tea", "Wrap1", "Wrap2", "Bread roll", "Vanilla pudding with fruits", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_165007.jpg",
-    "consumed": [],
-    "possibleElements": []
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_165007.jpg",
+    "consumed": [
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_181642.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_181720.jpg"
+    ],
+    "possibleElements": ["Coffee", "Wrap1", "Wrap2", "Bread roll", "Vanilla pudding with fruits", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_165025.jpg",
-    "consumed": [],
-    "possibleElements": []
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_165025.jpg",
+    "consumed": [
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_175058.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_181122.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_181220.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_181423.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_181537.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_181615.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_192206.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_192239.jpg"
+    ],
+    "possibleElements": ["Coffe", "Wrap1", "Wrap2", "Bread roll", "Fruit salad", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
   },
   {
-    "source_dir": "images/unconsumed/wrap",
-    "unconsumed": "images/unconsumed/wrap/all_markers_shot_20260520_165434.jpg",
-    "consumed": [],
-    "possibleElements": []
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "images_cropped/unconsumed/wrap/all_markers_shot_20260520_165434.jpg",
+    "consumed": [
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_165656.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_165723.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_165748.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_170001.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_170029.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_170156.jpg"
+
+    ],
+    "possibleElements": ["Cola", "Wrap1", "Wrap2", "Bread roll", "Fruit salad", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
+  },
+  {
+    "source_dir": "images_cropped/unconsumed/wrap",
+    "unconsumed": "invalid",
+    "consumed": [
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_191850.jpg",
+      "images_cropped/consumed/wrap/all_markers_shot_20260520_191953.jpg"
+    ],
+    "possibleElements": ["Orange juice", "Wrap1", "Wrap2", "Bread roll", "Fruit salad", "Cookie", "Cherry jam", "Plum jam", "Honey", "Butter"]
   }
 ]

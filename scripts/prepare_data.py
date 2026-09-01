@@ -86,9 +86,10 @@ NAME_TO_FINAL = {
     "fruit_salad": "fruit_salad",
     "honey": "honey",
     "orange_juice_bottle": "orange_juice",        # RENAME
-    "pasta_pesto": "pasta_pesto",                 # NOTE: 0 samples so far
+    "pasta_pesto": "pasta_pesto",                 # NOTE: 0 => was skipped given time constraints 
     "plum_jam": "plum_jam",
     "rice": "rice",
+    "main_salad": "main_salad",                   # ALREADY CANONICAL
     "salad_main": "main_salad",                   # RENAME
     "side_salad": "side_salad",
     "tea_cup": "tea",                             # RENAME

@@ -1,0 +1,889 @@
+{
+  "generated_at": "2026-08-24T23:41:50",
+  "image_files_checked": 365,
+  "indexed_images_checked": 239,
+  "issues": [
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "02b577d2__all_markers_shot_20260520_180501.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "09ac004a__all_markers_shot_20260520_181615.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0c5b92c8__all_markers_shot_20260520_190359.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0cc154b8__all_markers_shot_20260520_193306.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0df5f347__all_markers_shot_20260529_162204.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0e84c30a__all_markers_shot_20260520_191635.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0e9f6dce__all_markers_shot_20260520_172237.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "0ff11a34__all_markers_shot_20260520_180433.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "11e93d76__all_markers_shot_20260520_173730.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "13f4aa23__all_markers_shot_20260529_172108.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "152c74b9__all_markers_shot_20260520_190138.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "187757c1__all_markers_shot_20260529_154513.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "1b8c4f93__all_markers_shot_20260520_171125.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "1e6dc67f__all_markers_shot_20260520_175247.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "1eb6c2c7__all_markers_shot_20260520_174121.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "1eec7ddb__all_markers_shot_20260520_191226.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "1f025382__all_markers_shot_20260520_171821.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "223fc016__all_markers_shot_20260520_173116.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "225b490b__all_markers_shot_20260520_190727.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "2394b8f5__all_markers_shot_20260520_180147.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "24829284__all_markers_shot_20260520_192704.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "248c9961__all_markers_shot_20260520_175448.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "2bca0ab5__all_markers_shot_20260520_183212.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "2bd43a3a__all_markers_shot_20260529_164904.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "2d1c6ec9__all_markers_shot_20260520_185846.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "3106fe10__all_markers_shot_20260520_180831.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "328476cc__all_markers_shot_20260520_191053.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "33a96b61__all_markers_shot_20260529_174637.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "36e455b0__all_markers_shot_20260520_165656.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "3780ca2c__all_markers_shot_20260529_172542.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "37eaaa4e__all_markers_shot_20260520_182304.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "3ceb846e__all_markers_shot_20260520_175425.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "3db414a9__all_markers_shot_20260520_170623.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "3ff23926__all_markers_shot_20260520_191411.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "41f2b1c2__all_markers_shot_20260520_193521.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "42a4746e__all_markers_shot_20260520_190850.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "42fa5a82__all_markers_shot_20260520_181537.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "45b6e2d0__all_markers_shot_20260520_174150.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "49d95108__all_markers_shot_20260520_182907.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "4a238001__all_markers_shot_20260520_170029.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "4bac29c7__all_markers_shot_20260520_192811.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "4f7a18c3__all_markers_shot_20260520_193236.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "50fecdbd__all_markers_shot_20260529_163640.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "510de21b__all_markers_shot_20260520_175150.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "52338d04__all_markers_shot_20260520_183138.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "5457aa67__all_markers_shot_20260520_170001.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "571d8f81__all_markers_shot_20260520_191727.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "57539490__all_markers_shot_20260520_171726.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "57d60dfd__all_markers_shot_20260520_183047.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "57e95f89__all_markers_shot_20260520_172353.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "5c8e8891__all_markers_shot_20260520_171906.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "5caee1c9__all_markers_shot_20260520_190614.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "602433d8__all_markers_shot_20260529_165933.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "61537600__all_markers_shot_20260520_173604.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "63f393e5__all_markers_shot_20260520_181642.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "67cc2ef8__all_markers_shot_20260520_183622.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "696f3f5e__all_markers_shot_20260520_173008.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "6c68fafb__all_markers_shot_20260520_192604.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "7150e05c__all_markers_shot_20260520_193200.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "75325ba7__all_markers_shot_20260520_174107.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "75d7063a__all_markers_shot_20260520_180229.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "788788d9__all_markers_shot_20260520_174257.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "7a34e1fc__all_markers_shot_20260520_190321.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "7dbacc25__all_markers_shot_20260520_193423.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "7e78acbe__all_markers_shot_20260520_190431.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "807dacfd__all_markers_shot_20260529_165104.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "8964fca0__all_markers_shot_20260520_192239.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "8d3887b4__all_markers_shot_20260520_173647.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "8e8e3966__all_markers_shot_20260520_190047.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "91fdba0e__all_markers_shot_20260520_192206.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "952f5c43__all_markers_shot_20260520_190805.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "978240a8__all_markers_shot_20260520_165723.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "9819838c__all_markers_shot_20260520_182351.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "98cdacc9__all_markers_shot_20260520_180926.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "9b62693c__all_markers_shot_20260520_191158.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "9d8cdd69__all_markers_shot_20260520_170836.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "9ebaed46__all_markers_shot_20260520_172648.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "a0d4bdf6__all_markers_shot_20260529_152137.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "a56aaa6a__all_markers_shot_20260520_180326.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "a634af6a__all_markers_shot_20260520_191604.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "a90cee23__all_markers_shot_20260520_180404.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "a9a6da83__all_markers_shot_20260529_171410.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "aa90e2c5__all_markers_shot_20260529_171603.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ae7e1b37__all_markers_shot_20260520_182639.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "afb577df__all_markers_shot_20260520_183748.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "b5152c06__all_markers_shot_20260520_181836.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "b5a09a8e__all_markers_shot_20260520_181423.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "b61e2860__all_markers_shot_20260520_173341.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "b6c3ecca__all_markers_shot_20260520_175058.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "b71cde6b__all_markers_shot_20260520_170156.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "bfa551e8__all_markers_shot_20260520_193026.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "c0d95aec__all_markers_shot_20260520_180521.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "c2e3d8d2__all_markers_shot_20260520_192407.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "c3d29ec9__all_markers_shot_20260520_191127.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "c40330cc__all_markers_shot_20260520_181122.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ca807cc5__all_markers_shot_20260520_191302.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "cda5dc80__all_markers_shot_20260520_183434.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ce68acc0__all_markers_shot_20260520_190927.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "d4325af5__all_markers_shot_20260520_172143.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "d6109ec5__all_markers_shot_20260520_172025.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "d6a3b9cb__all_markers_shot_20260520_192626.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "d736cad4__all_markers_shot_20260520_180713.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "db357700__all_markers_shot_20260520_181720.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "dd3421ce__all_markers_shot_20260520_174327.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "dd3a944f__all_markers_shot_20260520_181940.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "dd7f4fbb__all_markers_shot_20260520_172912.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "de223bbe__all_markers_shot_20260520_172847.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "e0cf760f__all_markers_shot_20260520_185611.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "e2f380f6__all_markers_shot_20260520_180759.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "e6d15e3f__all_markers_shot_20260520_190215.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "e6e4fdca__all_markers_shot_20260520_192458.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "e734603b__all_markers_shot_20260520_170714.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "e796bdb1__all_markers_shot_20260520_172308.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "e81e6a0a__all_markers_shot_20260520_170514.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "e91f730c__all_markers_shot_20260520_170938.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ea21f478__all_markers_shot_20260520_171018.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ebd7de3d__all_markers_shot_20260520_181220.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ed77dd2e__all_markers_shot_20260520_190246.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ef7f5749__all_markers_shot_20260520_192915.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "ef972be1__all_markers_shot_20260529_154028.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f010832f__all_markers_shot_20260520_173246.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f2cc6c08__all_markers_shot_20260520_175512.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f2ff80ce__all_markers_shot_20260520_182049.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f5b86d08__all_markers_shot_20260529_172947.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f5eacd7e__all_markers_shot_20260528_142654.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "f86187e9__all_markers_shot_20260520_165748.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "fc009f5d__all_markers_shot_20260529_170027.jpg",
+      "message": "No consumption record was found for this image stem."
+    },
+    {
+      "check_name": "image_to_index_mapping",
+      "severity": "error",
+      "item": "all_markers_shot_20260528_150117",
+      "message": "The index contains a record for an image that does not exist on disk."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "68ebe3f2__all_markers_shot_20260528_143834.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "038be616__all_markers_shot_20260528_141313.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "ff0fc3f5__all_markers_shot_20260528_141336.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "5b2fdbf3__all_markers_shot_20260528_141439.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "f9141b3c__all_markers_shot_20260528_141635.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "0a5ec2d2__all_markers_shot_20260528_141750.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "886259b8__all_markers_shot_20260528_141804.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "e67d4982__all_markers_shot_20260528_141825.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "3d22a3f9__all_markers_shot_20260528_141835.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "0287feb9__all_markers_shot_20260519_143742.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "13d3da77__all_markers_shot_20260519_144013.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "a6e3a794__all_markers_shot_20260519_144422.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "10cb2adb__all_markers_shot_20260519_142948.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "87f3f88b__all_markers_shot_20260519_143020.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "7eafd829__all_markers_shot_20260519_143120.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "68c15968__all_markers_shot_20260519_143242.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "b842a783__all_markers_shot_20260519_143257.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "2c731317__all_markers_shot_20260519_143349.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    },
+    {
+      "check_name": "zero_consumption_and_missing_mask",
+      "severity": "error",
+      "item": "ef98c35b__all_markers_shot_20260519_143445.jpg",
+      "message": "pct_vanilla_pudding is 0 but the polygon label 'vanilla_pudding' is missing from polygon_labels."
+    }
+  ]
+}

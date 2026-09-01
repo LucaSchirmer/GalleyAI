@@ -1,5 +1,1365 @@
 [
   {
+    "before": "data/images/7ffbed7a__all_markers_shot_20260519_140726.jpg",
+    "after": "data_consumed/images/04157e39__all_markers_shot_20260519_153221.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Coffee",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        69
+      ],
+      "pct_bread_roll": [
+        28
+      ],
+      "pct_brownie": [
+        47
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ],
+      "drink_coffee": [
+        [
+          "Consumed"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/7ffbed7a__all_markers_shot_20260519_140726.jpg",
+    "after": "data_consumed/images/ddd57a78__all_markers_shot_20260519_153321.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Coffee",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_brownie": [
+        47
+      ],
+      "pct_bread_roll": [
+        28
+      ],
+      "pct_salad_dish_main": [
+        69
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "drink_coffee": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/7ffbed7a__all_markers_shot_20260519_140726.jpg",
+    "after": "data_consumed/images/637c6426__all_markers_shot_20260519_153338.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Coffee",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        69
+      ],
+      "pct_bread_roll": [
+        28
+      ],
+      "pct_brownie": [
+        47
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "drink_coffee": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Not consumed"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/7ffbed7a__all_markers_shot_20260519_140726.jpg",
+    "after": "data_consumed/images/174d396a__all_markers_shot_20260519_153357.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Coffee",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        69
+      ],
+      "pct_bread_roll": [
+        28
+      ],
+      "pct_brownie": [
+        47
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "drink_coffee": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/7ffbed7a__all_markers_shot_20260519_140726.jpg",
+    "after": "data_consumed/images/0a41f707__all_markers_shot_20260519_153526.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Coffee",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        69
+      ],
+      "pct_bread_roll": [
+        100
+      ],
+      "pct_brownie": [
+        47
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "drink_coffee": [
+        [
+          "Consumed"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/7ffbed7a__all_markers_shot_20260519_140726.jpg",
+    "after": "data_consumed/images/3f8b9324__all_markers_shot_20260519_153554.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Coffee",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        69
+      ],
+      "pct_bread_roll": [
+        100
+      ],
+      "pct_brownie": [
+        47
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "drink_coffee": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/7ffbed7a__all_markers_shot_20260519_140726.jpg",
+    "after": "data_consumed/images/638e7238__all_markers_shot_20260519_153706.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Coffee",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        69
+      ],
+      "pct_bread_roll": [
+        100
+      ],
+      "pct_brownie": [
+        47
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "drink_coffee": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/7ffbed7a__all_markers_shot_20260519_140726.jpg",
+    "after": "data_consumed/images/8c135fc8__all_markers_shot_20260519_153825.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Coffee",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_bread_roll": [
+        100
+      ],
+      "pct_brownie": [
+        47
+      ],
+      "pct_salad_dish_main": [
+        76
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ],
+      "drink_coffee": [
+        [
+          "Consumed"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/7ffbed7a__all_markers_shot_20260519_140726.jpg",
+    "after": "data_consumed/images/fee50051__all_markers_shot_20260519_153910.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Coffee",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        69
+      ],
+      "pct_bread_roll": [
+        100
+      ],
+      "pct_brownie": [
+        47
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Consumed"
+        ]
+      ],
+      "drink_coffee": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/7ffbed7a__all_markers_shot_20260519_140726.jpg",
+    "after": "data_consumed/images/5707c1a3__all_markers_shot_20260519_153953.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Coffee",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        76
+      ],
+      "pct_bread_roll": [
+        100
+      ],
+      "pct_brownie": [
+        47
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "drink_coffee": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/7ffbed7a__all_markers_shot_20260519_140726.jpg",
+    "after": "data_consumed/images/648ce97f__all_markers_shot_20260519_154013.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Coffee",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_bread_roll": [
+        100
+      ],
+      "pct_brownie": [
+        47
+      ],
+      "pct_salad_dish_main": [
+        76
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "drink_coffee": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/7ffbed7a__all_markers_shot_20260519_140726.jpg",
+    "after": "data_consumed/images/3de2632d__all_markers_shot_20260519_154149.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Coffee",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_bread_roll": [
+        100
+      ],
+      "pct_salad_dish_main": [
+        76
+      ],
+      "pct_brownie": [
+        47
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Consumed"
+        ]
+      ],
+      "drink_coffee": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/7ffbed7a__all_markers_shot_20260519_140726.jpg",
+    "after": "data_consumed/images/4a8d485c__all_markers_shot_20260519_154227.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Coffee",
+      "Salad",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        76
+      ],
+      "pct_bread_roll": [
+        92
+      ],
+      "pct_brownie": [
+        47
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "drink_coffee": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/c594b61a__all_markers_shot_20260519_134947.jpg",
+    "after": "data_consumed/images/03c3ea1c__all_markers_shot_20260519_144512.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Orange juice",
+      "Salad",
+      "Side salad",
+      "Vanilla puddding with fruits",
+      "Cookie"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        43
+      ],
+      "pct_side_salad": [
+        0
+      ],
+      "pct_vanilla_pudding": [
+        18
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "drink_oj": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/c594b61a__all_markers_shot_20260519_134947.jpg",
+    "after": "data_consumed/images/bf31245f__all_markers_shot_20260519_144603.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Orange juice",
+      "Salad",
+      "Side salad",
+      "Vanilla puddding with fruits",
+      "Cookie"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        43
+      ],
+      "pct_side_salad": [
+        0
+      ],
+      "pct_vanilla_pudding": [
+        60
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ],
+      "drink_oj": [
+        [
+          "Consumed"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/c594b61a__all_markers_shot_20260519_134947.jpg",
+    "after": "data_consumed/images/97ecc04d__all_markers_shot_20260519_144922.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Orange juice",
+      "Salad",
+      "Side salad",
+      "Vanilla puddding with fruits",
+      "Cookie"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        43
+      ],
+      "pct_side_salad": [
+        0
+      ],
+      "pct_vanilla_pudding": [
+        40
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "drink_oj": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/c594b61a__all_markers_shot_20260519_134947.jpg",
+    "after": "data_consumed/images/9bc5a773__all_markers_shot_20260519_145025.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Orange juice",
+      "Salad",
+      "Side salad",
+      "Vanilla puddding with fruits",
+      "Cookie"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        43
+      ],
+      "pct_side_salad": [
+        0
+      ],
+      "pct_vanilla_pudding": [
+        40
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ],
+      "drink_oj": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/c594b61a__all_markers_shot_20260519_134947.jpg",
+    "after": "data_consumed/images/5ccf028f__all_markers_shot_20260519_145134.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Orange juice",
+      "Salad",
+      "Side salad",
+      "Vanilla puddding with fruits",
+      "Cookie"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        43
+      ],
+      "pct_side_salad": [
+        0
+      ],
+      "pct_vanilla_pudding": [
+        40
+      ]
+    },
+    "choices": {
+      "quality_flags": [
+        [
+          "Obstacle obscuring food (cutlery, napkin, foil)"
+        ]
+      ],
+      "drink_oj": [
+        [
+          "Consumed"
+        ]
+      ],
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/c594b61a__all_markers_shot_20260519_134947.jpg",
+    "after": "data_consumed/images/0f718331__all_markers_shot_20260519_145218.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Orange juice",
+      "Salad",
+      "Side salad",
+      "Vanilla puddding with fruits",
+      "Cookie"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        43
+      ],
+      "pct_side_salad": [
+        54
+      ],
+      "pct_fruit_salad": [
+        0
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ],
+      "drink_oj": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/c594b61a__all_markers_shot_20260519_134947.jpg",
+    "after": "data_consumed/images/936e16af__all_markers_shot_20260519_145308.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Orange juice",
+      "Salad",
+      "Side salad",
+      "Vanilla puddding with fruits",
+      "Cookie"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        43
+      ],
+      "pct_side_salad": [
+        54
+      ],
+      "pct_vanilla_pudding": [
+        40
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ],
+      "drink_oj": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/c594b61a__all_markers_shot_20260519_134947.jpg",
+    "after": "data_consumed/images/81eb4525__all_markers_shot_20260519_145328.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Orange juice",
+      "Salad",
+      "Side salad",
+      "Vanilla puddding with fruits",
+      "Cookie"
+    ],
+    "numbers": {
+      "pct_vanilla_pudding": [
+        40
+      ],
+      "pct_side_salad": [
+        54
+      ],
+      "pct_salad_dish_main": [
+        43
+      ]
+    },
+    "choices": {
+      "drink_oj": [
+        [
+          "Consumed"
+        ]
+      ],
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/c594b61a__all_markers_shot_20260519_134947.jpg",
+    "after": "data_consumed/images/cbdad753__all_markers_shot_20260519_145414.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Orange juice",
+      "Salad",
+      "Side salad",
+      "Vanilla puddding with fruits",
+      "Cookie"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        43
+      ],
+      "pct_side_salad": [
+        54
+      ],
+      "pct_vanilla_pudding": [
+        40
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ],
+      "drink_oj": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/c594b61a__all_markers_shot_20260519_134947.jpg",
+    "after": "data_consumed/images/c1ab7472__all_markers_shot_20260519_160502.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Orange juice",
+      "Salad",
+      "Side salad",
+      "Vanilla puddding with fruits",
+      "Cookie"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        92
+      ],
+      "pct_side_salad": [
+        63
+      ],
+      "pct_vanilla_pudding": [
+        62
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ],
+      "drink_oj": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "Tray partially out of frame"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/c594b61a__all_markers_shot_20260519_134947.jpg",
+    "after": "data_consumed/images/3e0a870c__all_markers_shot_20260519_160531.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Orange juice",
+      "Salad",
+      "Side salad",
+      "Vanilla puddding with fruits",
+      "Cookie"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        92
+      ],
+      "pct_side_salad": [
+        63
+      ],
+      "pct_vanilla_pudding": [
+        62
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ],
+      "drink_oj": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/d58ec9e8__all_markers_shot_20260528_133257.jpg",
+    "after": "data_consumed/images/2f5e3587__all_markers_shot_20260528_150411.jpg",
+    "category": "pairs_unconsumed_chicken_rice",
+    "possible_elements": [
+      "Cola",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_rice": [
+        2
+      ],
+      "pct_brownie": [
+        65
+      ],
+      "pct_chicken_rice_veg": [
+        75
+      ],
+      "pct_bread_roll": [
+        79
+      ]
+    },
+    "choices": {
+      "drink_water": [
+        [
+          "Not present"
+        ]
+      ],
+      "drink_coffee": [
+        [
+          "Not present"
+        ]
+      ],
+      "drink_tea": [
+        [
+          "Not present"
+        ]
+      ],
+      "drink_oj": [
+        [
+          "Not present"
+        ]
+      ],
+      "drink_cola": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "Obstacle obscuring food (cutlery, napkin, foil)",
+          "Odd tray angle",
+          "Lighting inconsistency vs other images",
+          "Food rearranged significantly"
+        ]
+      ],
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ]
+    }
+  },
+  {
     "before": "data/images/d58ec9e8__all_markers_shot_20260528_133257.jpg",
     "after": "data_consumed/images/4b7e1c26__all_markers_shot_20260528_154910.jpg",
     "category": "pairs_unconsumed_chicken_rice",
@@ -58,21 +1418,27 @@
         [
           "Consumed"
         ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean",
+          "Food rearranged significantly"
+        ]
       ]
     }
   },
   {
-    "before": "data/images/53e36208__all_markers_shot_20260528_134328.jpg",
-    "after": "data_consumed/images/530351b3__all_markers_shot_20260528_152218.jpg",
+    "before": "data/images/d58ec9e8__all_markers_shot_20260528_133257.jpg",
+    "after": "data_consumed/images/3010b264__all_markers_shot_20260528_154945.jpg",
     "category": "pairs_unconsumed_chicken_rice",
     "possible_elements": [
-      "Orange juice",
+      "Cola",
       "Chicken",
       "Rice",
       "Broccoli",
       "Carrots",
       "Bread roll",
-      "Fruit salad",
+      "Chocolate cake",
       "Cookie",
       "Cherry jam",
       "Plum jam",
@@ -81,13 +1447,13 @@
     ],
     "numbers": {
       "pct_chicken_rice_veg": [
-        94
+        100
       ],
       "pct_bread_roll": [
-        93
+        0
       ],
-      "pct_fruit_salad": [
-        15
+      "pct_brownie": [
+        100
       ]
     },
     "choices": {
@@ -103,6 +1469,409 @@
       ],
       "extra_honey": [
         [
+          "Consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "drink_cola": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean",
+          "Food rearranged significantly"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/d58ec9e8__all_markers_shot_20260528_133257.jpg",
+    "after": "data_consumed/images/5f772a02__all_markers_shot_20260528_155020.jpg",
+    "category": "pairs_unconsumed_chicken_rice",
+    "possible_elements": [
+      "Cola",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_chicken_rice_veg": [
+        100
+      ],
+      "pct_bread_roll": [
+        0
+      ],
+      "pct_brownie": [
+        100
+      ]
+    },
+    "choices": {
+      "drink_cola": [
+        [
+          "Consumed"
+        ]
+      ],
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean",
+          "Food rearranged significantly"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/d58ec9e8__all_markers_shot_20260528_133257.jpg",
+    "after": "data_consumed/images/5a0ae358__all_markers_shot_20260528_155134.jpg",
+    "category": "pairs_unconsumed_chicken_rice",
+    "possible_elements": [
+      "Cola",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_chicken_rice_veg": [
+        100
+      ],
+      "pct_bread_roll": [
+        0
+      ],
+      "pct_brownie": [
+        100
+      ]
+    },
+    "choices": {
+      "quality_flags": [
+        [
+          "Odd tray angle"
+        ]
+      ],
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "drink_cola": [
+        [
+          "Consumed"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/d58ec9e8__all_markers_shot_20260528_133257.jpg",
+    "after": "data_consumed/images/72bce9e7__all_markers_shot_20260528_155209.jpg",
+    "category": "pairs_unconsumed_chicken_rice",
+    "possible_elements": [
+      "Cola",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_chicken_rice_veg": [
+        100
+      ],
+      "pct_bread_roll": [
+        0
+      ],
+      "pct_brownie": [
+        100
+      ]
+    },
+    "choices": {
+      "extra_plum_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "drink_cola": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "Odd tray angle"
+        ]
+      ],
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/39504d2b__all_markers_shot_20260520_164916.jpg",
+    "after": "data_consumed/images/b5152c06__all_markers_shot_20260520_181836.jpg",
+    "category": "pairs_unconsumed_wrap",
+    "possible_elements": [
+      "Tea",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_wrap_merged": [
+        64
+      ],
+      "pct_bread_roll": [
+        74
+      ],
+      "pct_vanilla_pudding": [
+        54
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ],
+      "drink_tea": [
+        [
+          "Consumed"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/39504d2b__all_markers_shot_20260520_164916.jpg",
+    "after": "data_consumed/images/dd3a944f__all_markers_shot_20260520_181940.jpg",
+    "category": "pairs_unconsumed_wrap",
+    "possible_elements": [
+      "Tea",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_wrap_merged": [
+        68
+      ],
+      "pct_bread_roll": [
+        74
+      ],
+      "pct_vanilla_pudding": [
+        54
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "drink_tea": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/39504d2b__all_markers_shot_20260520_164916.jpg",
+    "after": "data_consumed/images/f2ff80ce__all_markers_shot_20260520_182049.jpg",
+    "category": "pairs_unconsumed_wrap",
+    "possible_elements": [
+      "Tea",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_wrap_merged": [
+        68
+      ],
+      "pct_bread_roll": [
+        74
+      ],
+      "pct_vanilla_pudding": [
+        54
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "drink_tea": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ],
+      "extra_butter": [
+        [
           "Not consumed"
         ]
       ],
@@ -116,44 +1885,64 @@
           "Not consumed"
         ]
       ],
-      "drink_oj": [
+      "extra_honey": [
         [
-          "Consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
+          "Not consumed"
         ]
       ]
     }
   },
   {
-    "before": "data/images/81862db8__all_markers_shot_20260519_134437.jpg",
-    "after": "data_consumed/images/8a78e32b__all_markers_shot_20260519_165527.jpg",
-    "category": "pairs_unconsumed_salad_v2",
+    "before": "data/images/39504d2b__all_markers_shot_20260520_164916.jpg",
+    "after": "data_consumed/images/37eaaa4e__all_markers_shot_20260520_182304.jpg",
+    "category": "pairs_unconsumed_wrap",
     "possible_elements": [
       "Tea",
-      "Salad",
-      "Side salad",
-      "Chocolate cake",
-      "Cookie"
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
     ],
     "numbers": {
-      "pct_salad_dish_main": [
-        100
+      "pct_wrap_merged": [
+        68
       ],
-      "pct_side_salad": [
-        100
+      "pct_bread_roll": [
+        74
       ],
-      "pct_brownie": [
-        100
+      "pct_vanilla_pudding": [
+        54
       ]
     },
     "choices": {
       "status_cookie": [
         [
+          "Not consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
           "Consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
         ]
       ],
       "drink_tea": [
@@ -169,25 +1958,159 @@
     }
   },
   {
-    "before": "data/images/d625b856__all_markers_shot_20260519_132943.jpg",
-    "after": "data_consumed/images/b6e23722__all_markers_shot_20260519_145708.jpg",
-    "category": "pairs_unconsumed_salad_v2",
+    "before": "data/images/39504d2b__all_markers_shot_20260520_164916.jpg",
+    "after": "data_consumed/images/9819838c__all_markers_shot_20260520_182351.jpg",
+    "category": "pairs_unconsumed_wrap",
     "possible_elements": [
-      "Cola",
-      "Salad",
-      "Side salad",
-      "Fruit salad",
-      "Cookie"
+      "Tea",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
     ],
     "numbers": {
-      "pct_salad_dish_main": [
-        43
+      "pct_wrap_merged": [
+        68
       ],
-      "pct_side_salad": [
+      "pct_bread_roll": [
+        74
+      ],
+      "pct_vanilla_pudding": [
+        54
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "drink_tea": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/39504d2b__all_markers_shot_20260520_164916.jpg",
+    "after": "data_consumed/images/ae7e1b37__all_markers_shot_20260520_182639.jpg",
+    "category": "pairs_unconsumed_wrap",
+    "possible_elements": [
+      "Tea",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_wrap_merged": [
+        68
+      ],
+      "pct_vanilla_pudding": [
         54
       ],
+      "pct_bread_roll": [
+        74
+      ]
+    },
+    "choices": {
+      "quality_flags": [
+        [
+          "Food rearranged significantly"
+        ]
+      ],
+      "drink_tea": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/4d2c0a9d__all_markers_shot_20260529_150058.jpg",
+    "after": "data_consumed/images/a0d4bdf6__all_markers_shot_20260529_152137.jpg",
+    "category": "pairs_unconsumed_fish_rice",
+    "possible_elements": [
+      "Cola",
+      "Salmon",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Side salad",
+      "Fruit salad",
+      "Cookie",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_fish_rice_veg": [
+        11
+      ],
+      "pct_side_salad": [
+        35
+      ],
       "pct_fruit_salad": [
-        0
+        26
       ]
     },
     "choices": {
@@ -209,17 +2132,17 @@
     }
   },
   {
-    "before": "data/images/53e36208__all_markers_shot_20260528_134328.jpg",
-    "after": "data_consumed/images/6563bf96__all_markers_shot_20260528_143251.jpg",
-    "category": "pairs_unconsumed_chicken_rice",
+    "before": "data/images/7f9dcaea__all_markers_shot_20260529_145003.jpg",
+    "after": "data_consumed/images/2bd43a3a__all_markers_shot_20260529_164904.jpg",
+    "category": "pairs_unconsumed_fish_rice",
     "possible_elements": [
-      "Orange juice",
-      "Chicken",
+      "Water",
+      "Salmon",
       "Rice",
       "Broccoli",
       "Carrots",
       "Bread roll",
-      "Fruit salad",
+      "Chocolate cake",
       "Cookie",
       "Cherry jam",
       "Plum jam",
@@ -227,23 +2150,353 @@
       "Butter"
     ],
     "numbers": {
-      "pct_chicken_rice_veg": [
-        34.0
+      "pct_fish_rice_veg": [
+        54
       ],
       "pct_bread_roll": [
-        0.0
+        34
       ],
       "pct_brownie": [
-        42.0
+        74
       ]
     },
     "choices": {
       "status_cookie": [
         [
+          "Not consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ],
+      "drink_water": [
+        [
+          "Consumed"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/7f9dcaea__all_markers_shot_20260529_145003.jpg",
+    "after": "data_consumed/images/aa90e2c5__all_markers_shot_20260529_171603.jpg",
+    "category": "pairs_unconsumed_fish_rice",
+    "possible_elements": [
+      "Water",
+      "Salmon",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Bread roll",
+      "Chocolate cake",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_fish_rice_veg": [
+        72
+      ],
+      "pct_bread_roll": [
+        34
+      ],
+      "pct_vanilla_pudding": [
+        0
+      ],
+      "pct_brownie": [
+        100
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "drink_water": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/dacd27bb__all_markers_shot_20260520_164523.jpg",
+    "after": "data_consumed/images/e81e6a0a__all_markers_shot_20260520_170514.jpg",
+    "category": "pairs_unconsumed_wrap",
+    "possible_elements": [
+      "Cola",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_wrap_merged": [
+        10
+      ],
+      "pct_bread_roll": [
+        0
+      ],
+      "pct_vanilla_pudding": [
+        0
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "drink_cola": [
+        [
           "Consumed"
         ]
       ],
       "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/dacd27bb__all_markers_shot_20260520_164523.jpg",
+    "after": "data_consumed/images/3db414a9__all_markers_shot_20260520_170623.jpg",
+    "category": "pairs_unconsumed_wrap",
+    "possible_elements": [
+      "Cola",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_wrap_merged": [
+        10
+      ],
+      "pct_bread_roll": [
+        0
+      ],
+      "pct_vanilla_pudding": [
+        0
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "drink_cola": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/dacd27bb__all_markers_shot_20260520_164523.jpg",
+    "after": "data_consumed/images/e734603b__all_markers_shot_20260520_170714.jpg",
+    "category": "pairs_unconsumed_wrap",
+    "possible_elements": [
+      "Cola",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_wrap_merged": [
+        10
+      ],
+      "pct_bread_roll": [
+        0
+      ],
+      "pct_vanilla_pudding": [
+        0
+      ]
+    },
+    "choices": {
+      "drink_cola": [
+        [
+          "Consumed"
+        ]
+      ],
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/dacd27bb__all_markers_shot_20260520_164523.jpg",
+    "after": "data_consumed/images/9d8cdd69__all_markers_shot_20260520_170836.jpg",
+    "category": "pairs_unconsumed_wrap",
+    "possible_elements": [
+      "Cola",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_wrap_merged": [
+        10
+      ],
+      "pct_bread_roll": [
+        0
+      ],
+      "pct_vanilla_pudding": [
+        28
+      ]
+    },
+    "choices": {
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "status_cookie": [
         [
           "Not consumed"
         ]
@@ -263,9 +2516,228 @@
           "Not consumed"
         ]
       ],
-      "drink_oj": [
+      "drink_cola": [
         [
           "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/dacd27bb__all_markers_shot_20260520_164523.jpg",
+    "after": "data_consumed/images/3ff23926__all_markers_shot_20260520_191411.jpg",
+    "category": "pairs_unconsumed_wrap",
+    "possible_elements": [
+      "Cola",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_brownie": [
+        0
+      ],
+      "pct_vanilla_pudding": [
+        100
+      ],
+      "pct_bread_roll": [
+        100
+      ],
+      "pct_wrap_merged": [
+        100
+      ]
+    },
+    "choices": {
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ],
+      "drink_cola": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/dacd27bb__all_markers_shot_20260520_164523.jpg",
+    "after": "data_consumed/images/a634af6a__all_markers_shot_20260520_191604.jpg",
+    "category": "pairs_unconsumed_wrap",
+    "possible_elements": [
+      "Cola",
+      "Wrap1",
+      "Wrap2",
+      "Bread roll",
+      "Vanilla pudding with fruits",
+      "Cookie",
+      "Cherry jam",
+      "Plum jam",
+      "Honey",
+      "Butter"
+    ],
+    "numbers": {
+      "pct_vanilla_pudding": [
+        100
+      ],
+      "pct_bread_roll": [
+        100
+      ],
+      "pct_wrap_merged": [
+        100
+      ]
+    },
+    "choices": {
+      "drink_cola": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_cherry_jam": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "extra_plum_jam": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_honey": [
+        [
+          "Consumed"
+        ]
+      ],
+      "extra_butter": [
+        [
+          "Consumed"
+        ]
+      ],
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/466c277e__all_markers_shot_20260528_135556.jpg",
+    "after": "data_consumed/images/a3c752d5__all_markers_shot_20260528_141043.jpg",
+    "category": "pairs_unconsumed_chicken_rice",
+    "possible_elements": [
+      "Cola",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Side salad",
+      "Fruit salad",
+      "Cookie"
+    ],
+    "numbers": {
+      "pct_chicken_rice_veg": [
+        12
+      ],
+      "pct_side_salad": [
+        36
+      ],
+      "pct_fruit_salad": [
+        0
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "drink_cola": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "Tray partially out of frame"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/466c277e__all_markers_shot_20260528_135556.jpg",
+    "after": "data_consumed/images/5a83db75__all_markers_shot_20260528_141142.jpg",
+    "category": "pairs_unconsumed_chicken_rice",
+    "possible_elements": [
+      "Cola",
+      "Chicken",
+      "Rice",
+      "Broccoli",
+      "Carrots",
+      "Side salad",
+      "Fruit salad",
+      "Cookie"
+    ],
+    "numbers": {
+      "pct_chicken_rice_veg": [
+        12
+      ],
+      "pct_side_salad": [
+        36
+      ],
+      "pct_fruit_salad": [
+        0
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Not consumed"
+        ]
+      ],
+      "drink_cola": [
+        [
+          "Not consumed"
         ]
       ],
       "quality_flags": [
@@ -319,696 +2791,12 @@
     }
   },
   {
-    "before": "data/images/7c80dd8d__all_markers_shot_20260519_140824.jpg",
-    "after": "data_consumed/images/94d8e5d4__all_markers_shot_20260519_154626.jpg",
-    "category": "pairs_unconsumed_salad_v2",
-    "possible_elements": [
-      "Tea",
-      "Salad",
-      "Bread roll",
-      "Chocolate cake",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_salad_dish_main": [
-        82.0
-      ],
-      "pct_bread_roll": [
-        92.0
-      ],
-      "pct_brownie": [
-        47.0
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "drink_tea": [
-        [
-          "Consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/90e4cac1__all_markers_shot_20260519_140304.jpg",
-    "after": "data_consumed/images/204ddf34__all_markers_shot_20260519_163245.jpg",
-    "category": "pairs_unconsumed_salad_v2",
-    "possible_elements": [
-      "Water",
-      "Salad",
-      "Bread roll",
-      "Vanilla puddding with fruits",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_salad_dish_main": [
-        100
-      ],
-      "pct_bread_roll": [
-        0
-      ],
-      "pct_vanilla_pudding": [
-        62
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "drink_water": [
-        [
-          "Consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/0b6bcdd0__all_markers_shot_20260519_135013.jpg",
-    "after": "data_consumed/images/3100ec85__all_markers_shot_20260519_160313.jpg",
-    "category": "pairs_unconsumed_salad_v2",
-    "possible_elements": [
-      "Water",
-      "Salad",
-      "Side salad",
-      "Vanilla puddding with fruits",
-      "Cookie"
-    ],
-    "numbers": {
-      "pct_salad_dish_main": [
-        92
-      ],
-      "pct_side_salad": [
-        62
-      ],
-      "pct_vanilla_pudding": [
-        63
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Consumed"
-        ]
-      ],
-      "drink_water": [
-        [
-          "Consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/90e4cac1__all_markers_shot_20260519_140304.jpg",
-    "after": "data_consumed/images/aa5ca5b3__all_markers_shot_20260519_163501.jpg",
-    "category": "pairs_unconsumed_salad_v2",
-    "possible_elements": [
-      "Water",
-      "Salad",
-      "Bread roll",
-      "Vanilla puddding with fruits",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_salad_dish_main": [
-        100.0
-      ],
-      "pct_bread_roll": [
-        100.0
-      ],
-      "pct_vanilla_pudding": [
-        62.0
-      ]
-    },
-    "choices": {
-      "drink_water": [
-        [
-          "Consumed"
-        ]
-      ],
-      "status_cookie": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/53e36208__all_markers_shot_20260528_134328.jpg",
-    "after": "data_consumed/images/0efd5373__all_markers_shot_20260528_142800.jpg",
-    "category": "pairs_unconsumed_chicken_rice",
+    "before": "data/images/f95d99cc__all_markers_shot_20260529_144949.jpg",
+    "after": "data_consumed/images/187757c1__all_markers_shot_20260529_154513.jpg",
+    "category": "pairs_unconsumed_fish_rice",
     "possible_elements": [
       "Orange juice",
-      "Chicken",
-      "Rice",
-      "Broccoli",
-      "Carrots",
-      "Bread roll",
-      "Fruit salad",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_chicken_rice_veg": [
-        29
-      ],
-      "pct_bread_roll": [
-        0
-      ],
-      "pct_brownie": [
-        42
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "drink_oj": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "Tray partially out of frame"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/963e7fb0__all_markers_shot_20260519_134050.jpg",
-    "after": "data_consumed/images/01fd2caf__all_markers_shot_20260519_165109.jpg",
-    "category": "pairs_unconsumed_salad_v2",
-    "possible_elements": [
-      "Tea",
-      "Salad",
-      "Side salad",
-      "Fruit salad",
-      "Cookie"
-    ],
-    "numbers": {
-      "pct_salad_dish_main": [
-        100
-      ],
-      "pct_fruit_salad": [
-        100
-      ],
-      "pct_side_salad": [
-        100
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Consumed"
-        ]
-      ],
-      "drink_tea": [
-        [
-          "Consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/32f3adb1__all_markers_shot_20260519_140921.jpg",
-    "after": "data_consumed/images/2ad6b1d3__all_markers_shot_20260519_141613.jpg",
-    "category": "pairs_unconsumed_salad_v2",
-    "possible_elements": [
-      "Cola",
-      "Salad",
-      "Bread roll",
-      "Chocolate cake",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_salad_dish_main": [
-        17
-      ],
-      "pct_bread_roll": [
-        0
-      ],
-      "pct_brownie": [
-        20
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "drink_water": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "drink_cola": [
-        [
-          "Consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/c594b61a__all_markers_shot_20260519_134947.jpg",
-    "after": "data_consumed/images/03c3ea1c__all_markers_shot_20260519_144512.jpg",
-    "category": "pairs_unconsumed_salad_v2",
-    "possible_elements": [
-      "Orange juice",
-      "Salad",
-      "Side salad",
-      "Vanilla puddding with fruits",
-      "Cookie"
-    ],
-    "numbers": {
-      "pct_salad_dish_main": [
-        43
-      ],
-      "pct_side_salad": [
-        0
-      ],
-      "pct_vanilla_pudding": [
-        18
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "drink_oj": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/d625b856__all_markers_shot_20260519_132943.jpg",
-    "after": "data_consumed/images/4b1942e3__all_markers_shot_20260519_162238.jpg",
-    "category": "pairs_unconsumed_salad_v2",
-    "possible_elements": [
-      "Cola",
-      "Salad",
-      "Side salad",
-      "Fruit salad",
-      "Cookie"
-    ],
-    "numbers": {
-      "pct_salad_dish_main": [
-        94
-      ],
-      "pct_side_salad": [
-        83
-      ],
-      "pct_fruit_salad": [
-        82
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "drink_cola": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/53e36208__all_markers_shot_20260528_134328.jpg",
-    "after": "data_consumed/images/2413cfbb__all_markers_shot_20260528_143444.jpg",
-    "category": "pairs_unconsumed_chicken_rice",
-    "possible_elements": [
-      "Orange juice",
-      "Chicken",
-      "Rice",
-      "Broccoli",
-      "Carrots",
-      "Bread roll",
-      "Fruit salad",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_chicken_rice_veg": [
-        34
-      ],
-      "pct_bread_roll": [
-        100
-      ],
-      "pct_brownie": [
-        100
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "drink_oj": [
-        [
-          "Consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "Tray partially out of frame"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/53e36208__all_markers_shot_20260528_134328.jpg",
-    "after": "data_consumed/images/57518301__all_markers_shot_20260528_143205.jpg",
-    "category": "pairs_unconsumed_chicken_rice",
-    "possible_elements": [
-      "Orange juice",
-      "Chicken",
-      "Rice",
-      "Broccoli",
-      "Carrots",
-      "Bread roll",
-      "Fruit salad",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_chicken_rice_veg": [
-        34
-      ],
-      "pct_bread_roll": [
-        0
-      ],
-      "pct_brownie": [
-        42
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "drink_oj": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/ba8a2742__all_markers_shot_20260528_133849.jpg",
-    "after": "data_consumed/images/cdc403e2__all_markers_shot_20260528_144129.jpg",
-    "category": "pairs_unconsumed_chicken_rice",
-    "possible_elements": [
-      "Water",
-      "Chicken",
-      "Rice",
-      "Broccoli",
-      "Carrots",
-      "Bread roll",
-      "Vanilla pudding with fruits",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_bread_roll": [
-        21.0
-      ],
-      "pct_chicken_rice_veg": [
-        44.0
-      ],
-      "pct_vanilla_pudding": [
-        31.0
-      ]
-    },
-    "choices": {
-      "drink_water": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Consumed"
-        ]
-      ],
-      "status_cookie": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/c1701c4b__all_markers_shot_20260528_133617.jpg",
-    "after": "data_consumed/images/421c13f9__all_markers_shot_20260528_145444.jpg",
-    "category": "pairs_unconsumed_chicken_rice",
-    "possible_elements": [
-      "Tea",
-      "Chicken",
+      "Salmon",
       "Rice",
       "Broccoli",
       "Carrots",
@@ -1021,20 +2809,25 @@
       "Butter"
     ],
     "numbers": {
-      "pct_brownie": [
-        65
+      "pct_fish_rice_veg": [
+        27
       ],
       "pct_bread_roll": [
-        21
+        100
       ],
-      "pct_chicken_rice_veg": [
-        56
+      "pct_brownie": [
+        0
       ]
     },
     "choices": {
-      "extra_honey": [
+      "drink_oj": [
         [
-          "Consumed"
+          "Not consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
         ]
       ],
       "extra_butter": [
@@ -1042,14 +2835,14 @@
           "Consumed"
         ]
       ],
-      "status_cookie": [
+      "extra_honey": [
         [
           "Not consumed"
         ]
       ],
       "extra_plum_jam": [
         [
-          "Consumed"
+          "Not consumed"
         ]
       ],
       "extra_cherry_jam": [
@@ -1057,109 +2850,44 @@
           "Not consumed"
         ]
       ],
-      "drink_tea": [
+      "status_cookie": [
         [
-          "Not consumed"
+          "Consumed"
         ]
       ]
     }
   },
   {
-    "before": "data/images/c1701c4b__all_markers_shot_20260528_133617.jpg",
-    "after": "data_consumed/images/d4025fcc__all_markers_shot_20260528_145544.jpg",
-    "category": "pairs_unconsumed_chicken_rice",
+    "before": "data/images/81862db8__all_markers_shot_20260519_134437.jpg",
+    "after": "data_consumed/images/8a78e32b__all_markers_shot_20260519_165527.jpg",
+    "category": "pairs_unconsumed_salad_v2",
     "possible_elements": [
       "Tea",
-      "Chicken",
-      "Rice",
-      "Broccoli",
-      "Carrots",
-      "Bread roll",
-      "Chocolate cake",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_chicken_rice_veg": [
-        54
-      ],
-      "pct_bread_roll": [
-        21
-      ],
-      "pct_brownie": [
-        65
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "drink_tea": [
-        [
-          "Not consumed"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/f355e593__all_markers_shot_20260528_135607.jpg",
-    "after": "data_consumed/images/cff0d837__all_markers_shot_20260528_140355.jpg",
-    "category": "pairs_unconsumed_chicken_rice",
-    "possible_elements": [
-      "Coffee",
-      "Chicken",
-      "Rice",
-      "Broccoli",
-      "Carrots",
+      "Salad",
       "Side salad",
-      "Fruit salad",
+      "Chocolate cake",
       "Cookie"
     ],
     "numbers": {
-      "pct_chicken_rice_veg": [
-        12
+      "pct_salad_dish_main": [
+        100
       ],
       "pct_side_salad": [
-        0
+        100
       ],
-      "pct_fruit_salad": [
-        0
+      "pct_brownie": [
+        100
       ]
     },
     "choices": {
       "status_cookie": [
         [
-          "Not consumed"
+          "Consumed"
         ]
       ],
-      "drink_coffee": [
+      "drink_tea": [
         [
-          "Not consumed"
+          "Consumed"
         ]
       ],
       "quality_flags": [
@@ -1210,8 +2938,88 @@
     }
   },
   {
-    "before": "data/images/ba8a2742__all_markers_shot_20260528_133849.jpg",
-    "after": "data_consumed/images/0ce9823c__all_markers_shot_20260528_144008.jpg",
+    "before": "data/images/81862db8__all_markers_shot_20260519_134437.jpg",
+    "after": "data_consumed/images/ad23884e__all_markers_shot_20260519_165726.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Tea",
+      "Salad",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        100
+      ],
+      "pct_side_salad": [
+        100
+      ],
+      "pct_brownie": [
+        70
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ],
+      "drink_tea": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/81862db8__all_markers_shot_20260519_134437.jpg",
+    "after": "data_consumed/images/e2268910__all_markers_shot_20260519_165756.jpg",
+    "category": "pairs_unconsumed_salad_v2",
+    "possible_elements": [
+      "Tea",
+      "Salad",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "numbers": {
+      "pct_salad_dish_main": [
+        100
+      ],
+      "pct_side_salad": [
+        100
+      ],
+      "pct_brownie": [
+        70
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ],
+      "drink_tea": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/8f9a2231__all_markers_shot_20260528_133528.jpg",
+    "after": "data_consumed/images/05cac8a1__all_markers_shot_20260528_143735.jpg",
     "category": "pairs_unconsumed_chicken_rice",
     "possible_elements": [
       "Water",
@@ -1220,7 +3028,7 @@
       "Broccoli",
       "Carrots",
       "Bread roll",
-      "Vanilla pudding with fruits",
+      "Chocolate cake",
       "Cookie",
       "Cherry jam",
       "Plum jam",
@@ -1231,573 +3039,11 @@
       "pct_chicken_rice_veg": [
         39
       ],
-      "pct_bread_roll": [
+      "pct_brownie": [
         100
-      ],
-      "pct_vanilla_pudding": [
-        31
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "drink_water": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/9bb5f82e__all_markers_shot_20260519_133819.jpg",
-    "after": "data_consumed/images/3327ac7a__all_markers_shot_20260519_161238.jpg",
-    "category": "pairs_unconsumed_salad_v2",
-    "possible_elements": [
-      "Orange juice",
-      "Salad",
-      "Side salad",
-      "Fruit salad",
-      "Cookie"
-    ],
-    "numbers": {
-      "pct_salad_dish_main": [
-        92
-      ],
-      "pct_side_salad": [
-        63
-      ],
-      "pct_brownie": [
-        40
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Consumed"
-        ]
-      ],
-      "drink_oj": [
-        [
-          "Consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/32f3adb1__all_markers_shot_20260519_140921.jpg",
-    "after": "data_consumed/images/30af4b0e__all_markers_shot_20260519_141508.jpg",
-    "category": "pairs_unconsumed_salad_v2",
-    "possible_elements": [
-      "Cola",
-      "Salad",
-      "Bread roll",
-      "Chocolate cake",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_salad_dish_main": [
-        17
-      ],
-      "pct_bread_roll": [
-        0
-      ],
-      "pct_brownie": [
-        20
-      ]
-    },
-    "choices": {
-      "drink_cola": [
-        [
-          "Consumed"
-        ]
-      ],
-      "status_cookie": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/73741ae6__all_markers_shot_20260519_135737.jpg",
-    "after": "data_consumed/images/6cd731ac__all_markers_shot_20260519_164456.jpg",
-    "category": "pairs_unconsumed_salad_v2",
-    "possible_elements": [
-      "Coffee",
-      "Salad",
-      "Bread roll",
-      "Vanilla puddding with fruits",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_salad_dish_main": [
-        100.0
-      ],
-      "pct_bread_roll": [
-        61.0
-      ],
-      "pct_vanilla_pudding": [
-        100.0
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Consumed"
-        ]
-      ],
-      "drink_coffee": [
-        [
-          "Consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Consumed"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/ba8a2742__all_markers_shot_20260528_133849.jpg",
-    "after": "data_consumed/images/29843481__all_markers_shot_20260528_144318.jpg",
-    "category": "pairs_unconsumed_chicken_rice",
-    "possible_elements": [
-      "Water",
-      "Chicken",
-      "Rice",
-      "Broccoli",
-      "Carrots",
-      "Bread roll",
-      "Vanilla pudding with fruits",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_chicken_rice_veg": [
-        44
-      ],
-      "pct_bread_roll": [
-        21
-      ],
-      "pct_vanilla_pudding": [
-        31
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "drink_water": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "Obstacle obscuring food (cutlery, napkin, foil)"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/87dd2d66__all_markers_shot_20260519_140316.jpg",
-    "after": "data_consumed/images/87f3f88b__all_markers_shot_20260519_143020.jpg",
-    "category": "pairs_unconsumed_salad_v2",
-    "possible_elements": [
-      "Tea",
-      "Salad",
-      "Bread roll",
-      "Vanilla puddding with fruits",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_salad_dish_main": [
-        17
-      ],
-      "pct_bread_roll": [
-        5
-      ],
-      "pct_vanilla_pudding": [
-        0
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/ba8a2742__all_markers_shot_20260528_133849.jpg",
-    "after": "data_consumed/images/19c6f505__all_markers_shot_20260528_145103.jpg",
-    "category": "pairs_unconsumed_chicken_rice",
-    "possible_elements": [
-      "Water",
-      "Chicken",
-      "Rice",
-      "Broccoli",
-      "Carrots",
-      "Bread roll",
-      "Vanilla pudding with fruits",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_chicken_rice_veg": [
-        56
-      ],
-      "pct_bread_roll": [
-        21
-      ],
-      "pct_vanilla_pudding": [
-        60
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "drink_water": [
-        [
-          "Consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/53e36208__all_markers_shot_20260528_134328.jpg",
-    "after": "data_consumed/images/781ed2ca__all_markers_shot_20260528_143349.jpg",
-    "category": "pairs_unconsumed_chicken_rice",
-    "possible_elements": [
-      "Orange juice",
-      "Chicken",
-      "Rice",
-      "Broccoli",
-      "Carrots",
-      "Bread roll",
-      "Fruit salad",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_chicken_rice_veg": [
-        34
       ],
       "pct_bread_roll": [
         100
-      ],
-      "pct_brownie": [
-        42
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "drink_oj": [
-        [
-          "Consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "Tray partially out of frame"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Not consumed"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/53e36208__all_markers_shot_20260528_134328.jpg",
-    "after": "data_consumed/images/4fadaca0__all_markers_shot_20260528_151421.jpg",
-    "category": "pairs_unconsumed_chicken_rice",
-    "possible_elements": [
-      "Orange juice",
-      "Chicken",
-      "Rice",
-      "Broccoli",
-      "Carrots",
-      "Bread roll",
-      "Fruit salad",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_chicken_rice_veg": [
-        69
-      ],
-      "pct_bread_roll": [
-        34
-      ],
-      "pct_fruit_salad": [
-        15
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ],
-      "drink_oj": [
-        [
-          "Consumed"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/53e36208__all_markers_shot_20260528_134328.jpg",
-    "after": "data_consumed/images/9d8fd3ce__all_markers_shot_20260528_152030.jpg",
-    "category": "pairs_unconsumed_chicken_rice",
-    "possible_elements": [
-      "Orange juice",
-      "Chicken",
-      "Rice",
-      "Broccoli",
-      "Carrots",
-      "Bread roll",
-      "Fruit salad",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_chicken_rice_veg": [
-        87
-      ],
-      "pct_bread_roll": [
-        93
-      ],
-      "pct_fruit_salad": [
-        15
       ]
     },
     "choices": {
@@ -1808,71 +3054,7 @@
       ],
       "extra_butter": [
         [
-          "Not consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "drink_oj": [
-        [
           "Consumed"
-        ]
-      ],
-      "quality_flags": [
-        [
-          "No issues — image pair is clean"
-        ]
-      ]
-    }
-  },
-  {
-    "before": "data/images/87dd2d66__all_markers_shot_20260519_140316.jpg",
-    "after": "data_consumed/images/7eafd829__all_markers_shot_20260519_143120.jpg",
-    "category": "pairs_unconsumed_salad_v2",
-    "possible_elements": [
-      "Tea",
-      "Salad",
-      "Bread roll",
-      "Vanilla puddding with fruits",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
-    ],
-    "numbers": {
-      "pct_salad_dish_main": [
-        29
-      ],
-      "pct_bread_roll": [
-        50
-      ],
-      "pct_vanilla_pudding": [
-        0
-      ]
-    },
-    "choices": {
-      "status_cookie": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "drink_tea": [
-        [
-          "Not consumed"
         ]
       ],
       "extra_cherry_jam": [
@@ -1885,12 +3067,12 @@
           "Not consumed"
         ]
       ],
-      "extra_butter": [
+      "extra_honey": [
         [
           "Not consumed"
         ]
       ],
-      "extra_honey": [
+      "drink_water": [
         [
           "Not consumed"
         ]
@@ -1903,11 +3085,11 @@
     }
   },
   {
-    "before": "data/images/c1701c4b__all_markers_shot_20260528_133617.jpg",
-    "after": "data_consumed/images/89c2d4ea__all_markers_shot_20260528_145312.jpg",
+    "before": "data/images/8f9a2231__all_markers_shot_20260528_133528.jpg",
+    "after": "data_consumed/images/0046be21__all_markers_shot_20260528_145221.jpg",
     "category": "pairs_unconsumed_chicken_rice",
     "possible_elements": [
-      "Tea",
+      "Water",
       "Chicken",
       "Rice",
       "Broccoli",
@@ -1921,23 +3103,23 @@
       "Butter"
     ],
     "numbers": {
-      "pct_bread_roll": [
-        21
-      ],
       "pct_chicken_rice_veg": [
         56
+      ],
+      "pct_bread_roll": [
+        21
       ],
       "pct_brownie": [
         65
       ]
     },
     "choices": {
-      "status_cookie": [
+      "extra_cherry_jam": [
         [
           "Not consumed"
         ]
       ],
-      "extra_butter": [
+      "extra_plum_jam": [
         [
           "Consumed"
         ]
@@ -1947,81 +3129,55 @@
           "Consumed"
         ]
       ],
-      "extra_plum_jam": [
+      "extra_butter": [
         [
           "Consumed"
         ]
       ],
-      "extra_cherry_jam": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "drink_tea": [
+      "status_cookie": [
         [
           "Not consumed"
         ]
       ],
       "quality_flags": [
         [
-          "Obstacle obscuring food (cutlery, napkin, foil)"
+          "No issues — image pair is clean"
+        ]
+      ],
+      "drink_water": [
+        [
+          "Consumed"
         ]
       ]
     }
   },
   {
-    "before": "data/images/ba8a2742__all_markers_shot_20260528_133849.jpg",
-    "after": "data_consumed/images/cf7b727f__all_markers_shot_20260528_144622.jpg",
-    "category": "pairs_unconsumed_chicken_rice",
+    "before": "data/images/0be978ca__all_markers_shot_20260520_163805.jpg",
+    "after": "data_consumed/images/4bac29c7__all_markers_shot_20260520_192811.jpg",
+    "category": "pairs_unconsumed_wrap",
     "possible_elements": [
       "Water",
-      "Chicken",
-      "Rice",
-      "Broccoli",
-      "Carrots",
-      "Bread roll",
-      "Vanilla pudding with fruits",
-      "Cookie",
-      "Cherry jam",
-      "Plum jam",
-      "Honey",
-      "Butter"
+      "Wrap1",
+      "Wrap2",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
     ],
     "numbers": {
-      "pct_bread_roll": [
-        21
+      "pct_wrap_merged": [
+        100
       ],
-      "pct_chicken_rice_veg": [
-        61
+      "pct_side_salad": [
+        100
       ],
-      "pct_vanilla_pudding": [
-        31
+      "pct_brownie": [
+        77
       ]
     },
     "choices": {
       "status_cookie": [
         [
           "Consumed"
-        ]
-      ],
-      "extra_butter": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_honey": [
-        [
-          "Not consumed"
-        ]
-      ],
-      "extra_plum_jam": [
-        [
-          "Consumed"
-        ]
-      ],
-      "extra_cherry_jam": [
-        [
-          "Not consumed"
         ]
       ],
       "drink_water": [
@@ -2031,31 +3187,36 @@
       ],
       "quality_flags": [
         [
-          "Obstacle obscuring food (cutlery, napkin, foil)"
+          "No issues — image pair is clean",
+          "Food rearranged significantly"
         ]
       ]
     }
   },
   {
-    "before": "data/images/c594b61a__all_markers_shot_20260519_134947.jpg",
-    "after": "data_consumed/images/c1ab7472__all_markers_shot_20260519_160502.jpg",
-    "category": "pairs_unconsumed_salad_v2",
+    "before": "data/images/0be978ca__all_markers_shot_20260520_163805.jpg",
+    "after": "data_consumed/images/ef7f5749__all_markers_shot_20260520_192915.jpg",
+    "category": "pairs_unconsumed_wrap",
     "possible_elements": [
-      "Orange juice",
-      "Salad",
+      "Water",
+      "Wrap1",
+      "Wrap2",
       "Side salad",
-      "Vanilla puddding with fruits",
+      "Chocolate cake",
       "Cookie"
     ],
     "numbers": {
-      "pct_salad_dish_main": [
-        92
+      "pct_fruit_salad": [
+        0
+      ],
+      "pct_brownie": [
+        77
       ],
       "pct_side_salad": [
-        63
+        100
       ],
-      "pct_vanilla_pudding": [
-        62
+      "pct_wrap_merged": [
+        100
       ]
     },
     "choices": {
@@ -2064,14 +3225,57 @@
           "Consumed"
         ]
       ],
-      "drink_oj": [
+      "drink_water": [
         [
           "Consumed"
         ]
       ],
       "quality_flags": [
         [
-          "Tray partially out of frame"
+          "No issues — image pair is clean",
+          "Food rearranged significantly"
+        ]
+      ]
+    }
+  },
+  {
+    "before": "data/images/0be978ca__all_markers_shot_20260520_163805.jpg",
+    "after": "data_consumed/images/bfa551e8__all_markers_shot_20260520_193026.jpg",
+    "category": "pairs_unconsumed_wrap",
+    "possible_elements": [
+      "Water",
+      "Wrap1",
+      "Wrap2",
+      "Side salad",
+      "Chocolate cake",
+      "Cookie"
+    ],
+    "numbers": {
+      "pct_brownie": [
+        100
+      ],
+      "pct_side_salad": [
+        100
+      ],
+      "pct_wrap_merged": [
+        100
+      ]
+    },
+    "choices": {
+      "status_cookie": [
+        [
+          "Consumed"
+        ]
+      ],
+      "drink_water": [
+        [
+          "Consumed"
+        ]
+      ],
+      "quality_flags": [
+        [
+          "No issues — image pair is clean",
+          "Food rearranged significantly"
         ]
       ]
     }

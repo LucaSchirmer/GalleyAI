@@ -15,7 +15,7 @@ SPEC.loader.exec_module(review_ui)
 
 
 class ReviewSessionTest(unittest.TestCase):
-    def build_session(self, records):
+    def build_session(self, records, possible_elements=None):
         temp = tempfile.TemporaryDirectory()
         self.addCleanup(temp.cleanup)
         root = Path(temp.name)
@@ -44,7 +44,7 @@ class ReviewSessionTest(unittest.TestCase):
                     {
                         "before": str(before_path),
                         "after": str(after_path),
-                        "possible_elements": ["Bread roll"],
+                        "possible_elements": possible_elements or ["Bread roll"],
                         "category": "test_meal",
                     }
                 ]
@@ -107,6 +107,38 @@ class ReviewSessionTest(unittest.TestCase):
             for issue in session.validate_record("after", session.indexed["after"])
         }
         self.assertNotIn("zero_consumption_and_missing_mask", checks)
+
+    def test_fish_rice_and_vegetables_composite_is_passed_correctly(self):
+        record = self.record()
+        record["numbers"] = {"pct_fish_rice_veg": [0]}
+        record["polygon_labels"] = ["fish_salmon"]
+        session, _ = self.build_session(
+            [record], ["Salmon", "Rice", "Broccoli", "Carrots"]
+        )
+        issues = session.validate_record("after", session.indexed["after"])
+        checks = {issue["check"] for issue in issues}
+        self.assertNotIn("zero_consumption_and_missing_mask", checks)
+        self.assertNotIn("missing_expected_fields", checks)
+        self.assertNotIn("unexpected_fields", checks)
+        self.assertEqual(
+            review_ui.ReviewSession._model_classes("pct_fish_rice_veg"),
+            ["fish_salmon", "rice", "carrots", "broccoli"],
+        )
+
+    def test_wrap_composite_is_passed_correctly(self):
+        record = self.record()
+        record["numbers"] = {"pct_wrap_merged": [0]}
+        record["polygon_labels"] = ["wrap_half_1"]
+        session, _ = self.build_session([record], ["Wrap1", "Wrap2"])
+        issues = session.validate_record("after", session.indexed["after"])
+        checks = {issue["check"] for issue in issues}
+        self.assertNotIn("zero_consumption_and_missing_mask", checks)
+        self.assertNotIn("missing_expected_fields", checks)
+        self.assertNotIn("unexpected_fields", checks)
+        self.assertEqual(
+            review_ui.ReviewSession._model_classes("pct_wrap_merged"),
+            ["wrap_half_1", "wrap_half_2"],
+        )
 
     def test_missing_quality_field_is_editable(self):
         record = self.record()

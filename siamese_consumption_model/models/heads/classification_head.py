@@ -16,9 +16,9 @@ import torch.nn as nn
 
 
 class ClassificationHead(nn.Module):
-    def __init__(self, feature_dim: int, hidden: int = 128, dropout: float = 0.3):
+    def __init__(self, feature_dim: int, context_dim: int = 0, hidden: int = 128, dropout: float = 0.3):
         super().__init__()
-        combined_dim = feature_dim * 4
+        combined_dim = feature_dim * 4 + context_dim
         self.net = nn.Sequential(
             nn.Linear(combined_dim, hidden),
             nn.ReLU(),
@@ -26,9 +26,16 @@ class ClassificationHead(nn.Module):
             nn.Linear(hidden, 1),  # raw logit, use with BCEWithLogitsLoss
         )
 
-    def forward(self, feat_before: torch.Tensor, feat_after: torch.Tensor) -> torch.Tensor:
+    def forward(
+        self,
+        feat_before: torch.Tensor,
+        feat_after: torch.Tensor,
+        context: torch.Tensor | None = None,
+    ) -> torch.Tensor:
         combined = torch.cat(
             [feat_before, feat_after, torch.abs(feat_before - feat_after), feat_before * feat_after],
             dim=1,
         )
+        if context is not None:
+            combined = torch.cat([combined, context], dim=1)
         return self.net(combined).squeeze(1)

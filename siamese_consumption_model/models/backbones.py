@@ -187,6 +187,30 @@ class Backbone(nn.Module):
     def trainable_parameters(self):
         return (p for p in self.parameters() if p.requires_grad)
 
+    def unfreeze_last_blocks(self, count: int) -> None:
+        """Unfreeze only the final transformer blocks and output norm."""
+        if count < 0:
+            raise ValueError("unfreeze_last_blocks must be non-negative")
+        if count == 0:
+            return
+        if self.name == "vit_b16":
+            blocks = self.model.blocks
+            final_norm = self.model.norm
+        elif self.name == "swin_t":
+            blocks = self.model.layers
+            final_norm = self.model.norm
+        else:
+            raise ValueError(
+                "Partial block unfreezing is currently supported only for vit_b16 and swin_t"
+            )
+        if count > len(blocks):
+            raise ValueError(f"Cannot unfreeze {count} blocks; {self.name} has {len(blocks)}")
+        for block in blocks[-count:]:
+            for parameter in block.parameters():
+                parameter.requires_grad = True
+        for parameter in final_norm.parameters():
+            parameter.requires_grad = True
+
 
 def build_backbone(name: str, pretrained: bool = True, freeze: bool = True) -> Backbone:
     return Backbone(name, pretrained=pretrained, freeze=freeze)

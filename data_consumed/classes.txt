@@ -11,13 +11,13 @@ Shadow on tray
 Tray partially out of frame
 bread_roll
 broccoli
-chocolate_cake
+brownie
 butter
 carrots
 cherry_jam
 chicken
 coffee_cup
-cola
+cola_can
 cookie
 fish_salmon
 fruit_salad
@@ -26,7 +26,7 @@ orange_juice_bottle
 pasta_pesto
 plum_jam
 rice
-main_salad
+salad_main
 side_salad
 tea_cup
 vanilla_pudding_with_fruits
